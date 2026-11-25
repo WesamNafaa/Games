@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9DBFF"/>
+      <stop offset="1" stop-color="#57B2F2"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2D3A0"/>
+      <stop offset="1" stop-color="#C8894F"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#s)"/>
+  <g transform="rotate(-9 23 16)">
+    <rect x="13" y="6" width="20" height="20" rx="5.5" fill="#FFFFFF" stroke="#FF9F43" stroke-width="2"/>
+    <text x="23" y="22.6" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14.5" font-weight="bold" fill="#FF9F43" text-anchor="middle">أ</text>
+  </g>
+  <circle cx="45.5" cy="14.5" r="6" fill="#FF6B8A"/>
+  <path d="M45.5 9.2 q1.7-2.3 4-2.5 q-.4 2.8-4 2.5" fill="#2ECC9A"/>
+  <path d="M12 43 L17.5 56.5 Q18 60.5 22 60.5 L42 60.5 Q46 60.5 46.5 56.5 L52 43 Z" fill="url(#b)"/>
+  <path d="M14.9 48.8 L49.1 48.8" stroke="#B07C48" stroke-width="1.8" opacity=".5" fill="none"/>
+  <path d="M17.1 55 L46.9 55" stroke="#B07C48" stroke-width="1.8" opacity=".5" fill="none"/>
+  <path d="M20.5 43.3 L25.5 60.2 M32 43.3 L32 60.5 M43.5 43.3 L38.5 60.2" stroke="#B07C48" stroke-width="1.5" opacity=".38" fill="none"/>
+  <ellipse cx="32" cy="43" rx="21" ry="6.3" fill="#9C6432"/>
+  <ellipse cx="32" cy="41.9" rx="21" ry="6.3" fill="#F2D3A0"/>
+  <ellipse cx="32" cy="42.2" rx="14.5" ry="3.8" fill="#6E4526"/>
+</svg>

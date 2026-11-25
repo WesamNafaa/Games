@@ -1,0 +1,3692 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+
+  <!-- Bilingual SEO Meta Title (Arabic & English) -->
+  <title>سلّة الحروف والأشكال الذكية | Smart Letters & Shapes Basket — لعبة تعليمية تفاعلية 3D</title>
+  <meta name="title" content="سلّة الحروف والأشكال الذكية | Smart Letters & Shapes Basket — Interactive 3D Educational Game" />
+
+  <!-- Bilingual Meta Description (Arabic & English) -->
+  <meta name="description" content="لعبة تعليمية تفاعلية ثلاثية الأبعاد (3D) للمتصفح والجوال لتعلّم الحروف العربية (28 حرفاً) والإنجليزية (26 حرفاً) والأشكال والصور مع النطق الصوتي ونظام المكافآت الذكي | Interactive 3D educational mobile & browser game to learn Arabic (28) & English (26) letters, shapes, pictures, and phonics with smart rewards. Published by Wesam Nafaa - وسام نفاع." />
+
+  <!-- Bilingual Meta Keywords (Arabic & English) -->
+  <meta name="keywords" content="سلّة الحروف والأشكال الذكية, لعبة الحروف, لعبة تعليمية للأطفال, تعلم الحروف العربية, تعلم الحروف الإنجليزية, التقاط الحروف والأشكال, ألعاب متصفح للجوال, لعبة ثلاثية الأبعاد 3D, نطق الحروف بالصوت, حروف وصور, وسام نفاع, Wesam Nafaa, Smart Letters and Shapes Basket, Educational 3D Browser Game, Learn Arabic Alphabet, Learn English Alphabet, Kids Phonics Game, Mobile WebGL Three.js Game, Letter Catching Basket Game, Interactive Learning" />
+
+  <!-- Publisher, Author & Copyright Attribution -->
+  <meta name="publisher" content="Wesam Nafaa - وسام نفاع" />
+  <meta name="author" content="Wesam Nafaa - وسام نفاع" />
+  <meta name="creator" content="Wesam Nafaa - وسام نفاع" />
+  <meta name="copyright" content="© 2026 Wesam Nafaa - وسام نفاع. All Rights Reserved." />
+  <meta name="application-name" content="سلّة الحروف والأشكال الذكية | Smart Letters & Shapes Basket" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Mobile Web App & Theme Metadata -->
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="سلّة الحروف | Letters Basket" />
+
+  <!-- Dublin Core Metadata -->
+  <meta name="DC.title" content="سلّة الحروف والأشكال الذكية | Smart Letters & Shapes Basket" />
+  <meta name="DC.creator" content="Wesam Nafaa - وسام نفاع" />
+  <meta name="DC.publisher" content="Wesam Nafaa - وسام نفاع" />
+  <meta name="DC.description" content="لعبة تعليمية تفاعلية ثلاثية الأبعاد لتعلّم الحروف العربية والإنجليزية والأشكال والصور | Interactive 3D educational game to learn Arabic & English letters, shapes, and pictures." />
+  <meta name="DC.language" content="ar, en" />
+
+  <!-- Open Graph & Social Sharing Metadata (Bilingual + Publisher) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="سلّة الحروف والأشكال الذكية | Smart Letters & Shapes Basket" />
+  <meta property="og:title" content="سلّة الحروف والأشكال الذكية | Smart Letters & Shapes Basket — لعبة تعليمية تفاعلية 3D" />
+  <meta property="og:description" content="لعبة تعليمية تفاعلية ثلاثية الأبعاد (3D) للمتصفح والجوال لتعلّم الحروف العربية (28 حرفاً) والإنجليزية (26 حرفاً) والأشكال والصور مع النطق الصوتي ونظام المكافآت الذكي | Published by Wesam Nafaa - وسام نفاع." />
+  <meta property="og:locale" content="ar_AR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="article:publisher" content="Wesam Nafaa - وسام نفاع" />
+  <meta property="og:image" id="og-image-meta" content="" />
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="سلّة الحروف والأشكال الذكية | Smart Letters & Shapes Basket — 3D Educational Game" />
+  <meta name="twitter:description" content="تعلّم الحروف العربية (28) والإنجليزية (26) والأشكال والصور بالصوت في عالم ثلاثي الأبعاد | Interactive 3D Arabic & English Alphabet Game. Published by Wesam Nafaa - وسام نفاع." />
+  <meta name="twitter:creator" content="Wesam Nafaa - وسام نفاع" />
+  <meta name="twitter:image" id="twitter-image-meta" content="" />
+
+  <!-- Custom Inline SVG Site Icon (Favicon) + Mobile Touch Icon + PWA Manifest -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%230f172a'/%3E%3Cstop offset='55%25' stop-color='%231e3a8a'/%3E%3Cstop offset='100%25' stop-color='%230e7490'/%3E%3C/linearGradient%3E%3ClinearGradient id='bsk' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0%25' stop-color='%23fde047'/%3E%3Cstop offset='45%25' stop-color='%23f59e0b'/%3E%3Cstop offset='100%25' stop-color='%2392400e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='128' height='128' rx='28' fill='url(%23bg)'/%3E%3Crect x='4' y='4' width='120' height='120' rx='24' fill='none' stroke='%2322d3ee' stroke-width='3' stroke-opacity='0.55'/%3E%3Ccircle cx='64' cy='68' r='44' fill='%2322d3ee' fill-opacity='0.14'/%3E%3Cpolygon points='64,10 69,22 82,23 72,31 75,44 64,37 53,44 56,31 46,23 59,22' fill='%23fbbf24' stroke='%23fef08a' stroke-width='2'/%3E%3Cpolygon points='64,47 72,55 64,63 56,55' fill='%23a78bfa' stroke='%23ede9fe' stroke-width='1.8'/%3E%3Crect x='15' y='28' width='32' height='32' rx='9' transform='rotate(-12 31 44)' fill='%2310b981' stroke='%23a7f3d0' stroke-width='2.5'/%3E%3Ctext x='31' y='51' text-anchor='middle' font-family='Arial,sans-serif' font-weight='900' font-size='21' fill='%23ffffff'%3EA%3C/text%3E%3Ccircle cx='97' cy='44' r='17' fill='%23f43f5e' stroke='%23fecdd3' stroke-width='2.5'/%3E%3Ctext x='97' y='52' text-anchor='middle' font-family='Tahoma,Arial,sans-serif' font-weight='900' font-size='22' fill='%23ffffff'%3E%D8%A3%3C/text%3E%3Cpath d='M36 74 A28 24 0 0 1 92 74' fill='none' stroke='%23fde68a' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M24 74 L104 74 L92 110 Q64 116 36 110 Z' fill='url(%23bsk)' stroke='%23fef08a' stroke-width='2.5'/%3E%3Cline x1='32' y1='86' x2='96' y2='86' stroke='%23fef3c7' stroke-opacity='0.5' stroke-width='2.5'/%3E%3Cline x1='36' y1='98' x2='92' y2='98' stroke='%23fef3c7' stroke-opacity='0.5' stroke-width='2.5'/%3E%3Cline x1='48' y1='74' x2='52' y2='111' stroke='%2378350f' stroke-opacity='0.45' stroke-width='2.5'/%3E%3Cline x1='64' y1='74' x2='64' y2='113' stroke='%2378350f' stroke-opacity='0.45' stroke-width='2.5'/%3E%3Cline x1='80' y1='74' x2='76' y2='111' stroke='%2378350f' stroke-opacity='0.45' stroke-width='2.5'/%3E%3Crect x='20' y='68' width='88' height='10' rx='5' fill='%23fbbf24' stroke='%2322d3ee' stroke-width='2.5'/%3E%3C/svg%3E" />
+  <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpolygon points='64,10 69,22 82,23 72,31 75,44 64,37 53,44 56,31 46,23 59,22' fill='%23fbbf24'/%3E%3Crect x='15' y='28' width='32' height='32' rx='9' transform='rotate(-12 31 44)' fill='%2310b981'/%3E%3Ctext x='31' y='51' text-anchor='middle' font-family='Arial,sans-serif' font-weight='900' font-size='21' fill='%23ffffff'%3EA%3C/text%3E%3Ccircle cx='97' cy='44' r='17' fill='%23f43f5e'/%3E%3Ctext x='97' y='52' text-anchor='middle' font-family='Tahoma,Arial,sans-serif' font-weight='900' font-size='22' fill='%23ffffff'%3E%D8%A3%3C/text%3E%3Cpath d='M24 74 L104 74 L92 110 Q64 116 36 110 Z' fill='%23f59e0b'/%3E%3Crect x='20' y='68' width='88' height='10' rx='5' fill='%23fbbf24' stroke='%2322d3ee' stroke-width='2.5'/%3E%3C/svg%3E" />
+  <link id="apple-touch-icon" rel="apple-touch-icon" sizes="180x180" href="" />
+  <link id="pwa-manifest" rel="manifest" href="" />
+
+  <!-- Schema.org Bilingual Structured Data (VideoGame & LearningResource) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["VideoGame", "LearningResource", "WebApplication"],
+      "name": "سلّة الحروف والأشكال الذكية | Smart Letters & Shapes Basket",
+      "alternateName": [
+        "سلّة الحروف والأشكال الذكية",
+        "Smart Letters & Shapes Basket"
+      ],
+      "description": "لعبة تعليمية تفاعلية ثلاثية الأبعاد (3D) للمتصفح والجوال لتعلّم الحروف العربية (28 حرفاً) والإنجليزية (26 حرفاً) والأشكال والصور مع النطق الصوتي ونظام المكافآت الذكي | Interactive 3D educational mobile & browser game to learn Arabic (28) & English (26) letters, shapes, pictures, and phonics with smart rewards.",
+      "inLanguage": ["ar", "en"],
+      "learningResourceType": "Educational Game",
+      "educationalUse": [
+        "Alphabet Recognition",
+        "Phonics & Pronunciation",
+        "Shape & Picture Matching",
+        "Bilingual Arabic & English Vocabulary"
+      ],
+      "genre": [
+        "Educational",
+        "Kids Learning",
+        "3D Browser Game"
+      ],
+      "playMode": "SinglePlayer",
+      "applicationCategory": "GameApplication, EducationalApplication",
+      "operatingSystem": "Web Browser, Android, iOS, Windows, macOS",
+      "publisher": {
+        "@type": "Person",
+        "name": "Wesam Nafaa - وسام نفاع",
+        "alternateName": ["Wesam Nafaa", "وسام نفاع"]
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Wesam Nafaa - وسام نفاع",
+        "alternateName": ["Wesam Nafaa", "وسام نفاع"]
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "Wesam Nafaa - وسام نفاع"
+      },
+      "copyrightHolder": {
+        "@type": "Person",
+        "name": "Wesam Nafaa - وسام نفاع"
+      },
+      "copyrightYear": 2026,
+      "isAccessibleForFree": true
+    }
+  </script>
+
+  <!-- Crisp Arabic & English Educational Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800;900&family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Three.js r160 ES Modules + GLTFLoader via CDN (Pure Vanilla JS, Zero TypeScript) -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+
+  <style>
+    :root {
+      --glass-bg: rgba(15, 23, 42, 0.28);
+      --glass-bg-strong: rgba(15, 23, 42, 0.56);
+      --glass-border: rgba(255, 255, 255, 0.24);
+      --accent-cyan: #22d3ee;
+      --accent-gold: #fbbf24;
+      --accent-emerald: #34d399;
+      --accent-rose: #fb7185;
+      --accent-violet: #a78bfa;
+      --text-light: #f8fafc;
+      --text-muted: rgba(248, 250, 252, 0.8);
+      --font-ar: 'Cairo', sans-serif;
+      --font-en: 'Fredoka', 'Cairo', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    html, body {
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      overflow: hidden;
+      touch-action: none;
+      font-family: var(--font-ar);
+      background: linear-gradient(180deg, #0b132b 0%, #1c2541 46%, #25416b 100%);
+      color: var(--text-light);
+    }
+
+    /* Full-Screen 3D WebGL Canvas */
+    #webgl-canvas {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100dvh;
+      z-index: 1;
+      display: block;
+      touch-action: none;
+    }
+
+    /* Transparent Glassmorphism HUD Layer Floating Over Live 3D World */
+    #hud-layer {
+      position: fixed;
+      inset: 0;
+      z-index: 10;
+      pointer-events: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding:
+        max(8px, env(safe-area-inset-top))
+        max(10px, env(safe-area-inset-right))
+        max(12px, env(safe-area-inset-bottom))
+        max(10px, env(safe-area-inset-left));
+    }
+
+    .glass {
+      background: var(--glass-bg);
+      backdrop-filter: blur(12px) saturate(160%);
+      -webkit-backdrop-filter: blur(12px) saturate(160%);
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 8px 28px rgba(2, 6, 23, 0.24), inset 0 1px 1px rgba(255, 255, 255, 0.18);
+    }
+
+    .glass-strong {
+      background: var(--glass-bg-strong);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      box-shadow: 0 16px 48px rgba(2, 6, 23, 0.48), inset 0 1px 1px rgba(255, 255, 255, 0.22);
+    }
+
+    .interactive {
+      pointer-events: auto;
+      cursor: pointer;
+      transition: transform 0.16s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s ease, border-color 0.2s ease;
+    }
+
+    .interactive:active {
+      transform: scale(0.93);
+    }
+
+    /* Compact Top Glass Bar */
+    .top-hud-shell {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      width: 100%;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .top-bar-primary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .hud-pill-btn {
+      padding: 5px 10px;
+      border-radius: 999px;
+      color: var(--text-light);
+      font-family: inherit;
+      font-size: 0.76rem;
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+    }
+
+    .hud-pill-btn:hover {
+      background: rgba(255, 255, 255, 0.14);
+    }
+
+    /* Live Speed Segmented Selector on HUD */
+    .hud-speed-group {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px;
+      border-radius: 999px;
+      gap: 2px;
+      pointer-events: auto;
+    }
+
+    .hud-speed-btn {
+      border: none;
+      background: transparent;
+      color: rgba(248, 250, 252, 0.78);
+      font-family: inherit;
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 4px 9px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      white-space: nowrap;
+    }
+
+    .hud-speed-btn.active {
+      background: linear-gradient(135deg, rgba(34, 211, 238, 0.45), rgba(59, 130, 246, 0.5));
+      color: #ffffff;
+      box-shadow: 0 2px 10px rgba(34, 211, 238, 0.35);
+    }
+
+    .stats-cluster {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      direction: ltr;
+    }
+
+    .stat-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      font-family: var(--font-en);
+      font-size: 0.78rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .stat-badge.score {
+      border-color: rgba(52, 211, 153, 0.42);
+      color: #d1fae5;
+    }
+
+    .stat-badge.gems {
+      border-color: rgba(34, 211, 238, 0.45);
+      color: #e0f2fe;
+    }
+
+    .stat-badge.combo {
+      border-color: rgba(251, 191, 36, 0.42);
+      color: #fef3c7;
+    }
+
+    .stat-badge.combo.hot {
+      background: rgba(245, 158, 11, 0.36);
+      box-shadow: 0 0 16px rgba(251, 191, 36, 0.48);
+      animation: pulseCombo 0.95s infinite alternate;
+    }
+
+    @keyframes pulseCombo {
+      from { transform: scale(1); }
+      to { transform: scale(1.07); }
+    }
+
+    .actions-cluster {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .icon-btn {
+      height: 36px;
+      min-width: 36px;
+      padding: 0 9px;
+      border-radius: 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      font-family: inherit;
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .icon-btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    /* Translucent Audio Popover */
+    .audio-popover {
+      position: fixed;
+      top: 58px;
+      left: 12px;
+      z-index: 35;
+      padding: 10px 12px;
+      border-radius: 18px;
+      display: none;
+      flex-direction: column;
+      gap: 8px;
+      min-width: 182px;
+      pointer-events: auto;
+    }
+
+    html[dir="ltr"] .audio-popover {
+      left: auto;
+      right: 12px;
+    }
+
+    .audio-popover.open {
+      display: flex;
+      animation: fadeSlideDown 0.2s ease;
+    }
+
+    .audio-toggle-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 6px 8px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      cursor: pointer;
+    }
+
+    .toggle-pill {
+      width: 36px;
+      height: 20px;
+      border-radius: 99px;
+      background: rgba(255, 255, 255, 0.22);
+      position: relative;
+      transition: background 0.2s ease;
+    }
+
+    .toggle-pill::after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #fff;
+      transition: transform 0.2s ease;
+    }
+
+    .toggle-pill.on {
+      background: var(--accent-emerald);
+    }
+
+    .toggle-pill.on::after {
+      transform: translateX(16px);
+    }
+
+    /* Floating Transparent Target Card (Top-Center) */
+    .prompt-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 4px;
+      width: 100%;
+    }
+
+    .prompt-card {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      padding: 8px 13px;
+      border-radius: 22px;
+      max-width: 410px;
+      width: auto;
+      min-width: 265px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+    }
+
+    .prompt-card.pop {
+      transform: scale(1.05);
+      box-shadow: 0 0 28px rgba(34, 211, 238, 0.45);
+    }
+
+    .prompt-visual-box {
+      width: 62px;
+      height: 62px;
+      border-radius: 18px;
+      background: radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.26), rgba(15, 23, 42, 0.42));
+      border: 1.5px solid rgba(255, 255, 255, 0.36);
+      display: grid;
+      place-items: center;
+      font-size: 2.25rem;
+      font-weight: 900;
+      flex-shrink: 0;
+      box-shadow: inset 0 0 16px rgba(34, 211, 238, 0.22), 0 4px 14px rgba(0, 0, 0, 0.22);
+    }
+
+    .prompt-visual-box.is-letter {
+      font-size: 2.4rem;
+      color: #fef08a;
+      text-shadow: 0 2px 14px rgba(251, 191, 36, 0.7);
+    }
+
+    .prompt-info {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .mode-chip-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    .mode-chip {
+      font-size: 0.68rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 99px;
+      background: rgba(34, 211, 238, 0.22);
+      border: 1px solid rgba(34, 211, 238, 0.48);
+      color: #cffafe;
+    }
+
+    .mode-chip.pic-mode {
+      background: rgba(167, 139, 250, 0.25);
+      border-color: rgba(167, 139, 250, 0.55);
+      color: #ede9fe;
+    }
+
+    .prompt-stage-num {
+      font-family: var(--font-en);
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #fde68a;
+      direction: ltr;
+    }
+
+    .prompt-instruction {
+      font-size: 0.86rem;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.3;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .mini-progress-track {
+      width: 100%;
+      height: 5px;
+      background: rgba(255, 255, 255, 0.16);
+      border-radius: 99px;
+      overflow: hidden;
+      margin-top: 1px;
+    }
+
+    .mini-progress-fill {
+      height: 100%;
+      width: 4%;
+      background: linear-gradient(90deg, #22d3ee, #34d399, #fbbf24);
+      border-radius: 99px;
+      box-shadow: 0 0 8px rgba(52, 211, 153, 0.7);
+      transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .speaker-orb {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(34, 211, 238, 0.22);
+      border: 1px solid rgba(34, 211, 238, 0.52);
+      display: grid;
+      place-items: center;
+      font-size: 1rem;
+      flex-shrink: 0;
+      animation: gentlePulse 2.2s infinite;
+    }
+
+    @keyframes gentlePulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.45); }
+      50% { box-shadow: 0 0 0 8px rgba(34, 211, 238, 0); }
+    }
+
+    /* Floating Feedback Toast */
+    .feedback-toast {
+      position: fixed;
+      top: 168px;
+      left: 50%;
+      transform: translateX(-50%) scale(0.78);
+      opacity: 0;
+      pointer-events: none;
+      z-index: 25;
+      padding: 9px 18px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.98rem;
+      font-weight: 900;
+      white-space: nowrap;
+      max-width: 92vw;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.24s ease;
+    }
+
+    .feedback-toast.show {
+      opacity: 1;
+      transform: translateX(-50%) scale(1);
+    }
+
+    .feedback-toast.success {
+      background: rgba(6, 78, 59, 0.56);
+      border: 1.5px solid rgba(52, 211, 153, 0.78);
+      box-shadow: 0 8px 28px rgba(16, 185, 129, 0.35);
+      color: #ecfdf5;
+    }
+
+    .feedback-toast.warn {
+      background: rgba(127, 29, 29, 0.52);
+      border: 1.5px solid rgba(251, 113, 133, 0.72);
+      color: #ffe4e6;
+    }
+
+    .feedback-toast.reward {
+      background: rgba(120, 53, 15, 0.62);
+      border: 1.5px solid rgba(251, 191, 36, 0.88);
+      box-shadow: 0 8px 30px rgba(251, 191, 36, 0.45);
+      color: #fef3c7;
+    }
+
+    /* Bottom HUD Zone: Subtle Touch Hint + Smart Find ("زر إيجاد 🔍") */
+    .bottom-hud {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 980px;
+      margin: 0 auto;
+      pointer-events: none;
+    }
+
+    .touch-hint-pill {
+      padding: 6px 12px;
+      border-radius: 16px;
+      font-size: 0.73rem;
+      font-weight: 700;
+      color: rgba(248, 250, 252, 0.85);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      max-width: 205px;
+      line-height: 1.25;
+      opacity: 0.86;
+    }
+
+    /* Smart Find ("زر إيجاد 🔍") Reward Button */
+    .find-btn-wrap {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      pointer-events: auto;
+    }
+
+    .find-super-btn {
+      width: 78px;
+      height: 78px;
+      border-radius: 50%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at 35% 30%, rgba(34, 211, 238, 0.34), rgba(15, 23, 42, 0.56));
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1.5px solid rgba(255, 255, 255, 0.32);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.36);
+      color: #fff;
+      cursor: pointer;
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+    }
+
+    .find-super-btn:active {
+      transform: scale(0.91);
+    }
+
+    .find-super-btn.ready {
+      background: radial-gradient(circle at 35% 25%, rgba(251, 191, 36, 0.52), rgba(14, 116, 144, 0.65));
+      border-color: rgba(251, 191, 36, 0.92);
+      box-shadow: 0 0 26px rgba(251, 191, 36, 0.6), 0 0 48px rgba(34, 211, 238, 0.35);
+      animation: superpowerPulse 1.6s infinite ease-in-out;
+    }
+
+    .find-super-btn.affordable:not(.ready) {
+      border-color: rgba(34, 211, 238, 0.88);
+      box-shadow: 0 0 20px rgba(34, 211, 238, 0.42);
+    }
+
+    @keyframes superpowerPulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.07); }
+    }
+
+    .find-ring-svg {
+      position: absolute;
+      inset: -5px;
+      width: 88px;
+      height: 88px;
+      transform: rotate(-90deg);
+      pointer-events: none;
+    }
+
+    .find-ring-bg {
+      fill: none;
+      stroke: rgba(255, 255, 255, 0.16);
+      stroke-width: 5;
+    }
+
+    .find-ring-progress {
+      fill: none;
+      stroke: url(#findGrad);
+      stroke-width: 5.5;
+      stroke-linecap: round;
+      stroke-dasharray: 245;
+      stroke-dashoffset: 0;
+      transition: stroke-dashoffset 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .find-icon {
+      font-size: 1.42rem;
+      line-height: 1;
+    }
+
+    .find-label {
+      font-size: 0.76rem;
+      font-weight: 900;
+      margin-top: 1px;
+    }
+
+    .find-cost-badge {
+      position: absolute;
+      top: -6px;
+      right: -4px;
+      padding: 2px 7px;
+      border-radius: 99px;
+      font-family: var(--font-en);
+      font-size: 0.68rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #f59e0b, #eab308);
+      color: #0f172a;
+      border: 1.5px solid #fff;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+      direction: ltr;
+      white-space: nowrap;
+    }
+
+    .find-cost-badge.gem-cost {
+      background: linear-gradient(135deg, #06b6d4, #3b82f6);
+      color: #ffffff;
+    }
+
+    .find-cost-badge.charging {
+      background: rgba(15, 23, 42, 0.86);
+      color: #cbd5e1;
+    }
+
+    /* Translucent Modals Over Live 3D World */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 40;
+      background: rgba(2, 6, 23, 0.26);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+      pointer-events: auto;
+    }
+
+    .modal-backdrop.active {
+      display: flex;
+      animation: modalFadeIn 0.26s ease;
+    }
+
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes fadeSlideDown {
+      from { opacity: 0; transform: translateY(-8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .modal-card {
+      width: 100%;
+      max-width: 450px;
+      max-height: 89dvh;
+      overflow-y: auto;
+      border-radius: 28px;
+      padding: 18px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+      scrollbar-width: thin;
+    }
+
+    .brand-header {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .brand-logo-badge {
+      width: 54px;
+      height: 54px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, rgba(34, 211, 238, 0.35), rgba(251, 191, 36, 0.35));
+      border: 1.5px solid rgba(255, 255, 255, 0.4);
+      display: grid;
+      place-items: center;
+      font-size: 1.85rem;
+      box-shadow: 0 8px 24px rgba(34, 211, 238, 0.28);
+    }
+
+    .brand-title {
+      font-size: 1.28rem;
+      font-weight: 900;
+      background: linear-gradient(90deg, #ffffff, #bae6fd, #fde68a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.25;
+    }
+
+    .brand-subtitle {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .option-section {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .section-label {
+      font-size: 0.76rem;
+      font-weight: 800;
+      color: #bae6fd;
+      padding: 0 4px;
+    }
+
+    .segmented-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .segmented-grid.cols-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mode-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .choice-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1.5px solid rgba(255, 255, 255, 0.16);
+      border-radius: 15px;
+      padding: 9px 10px;
+      color: var(--text-light);
+      font-family: inherit;
+      font-size: 0.84rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      text-align: start;
+    }
+
+    .choice-btn.mode-item {
+      justify-content: flex-start;
+      padding: 9px 12px;
+    }
+
+    .choice-btn .mode-icon {
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+
+    .choice-btn .mode-desc {
+      display: block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .choice-btn.selected {
+      background: linear-gradient(135deg, rgba(34, 211, 238, 0.32), rgba(59, 130, 246, 0.34));
+      border-color: rgba(34, 211, 238, 0.92);
+      box-shadow: 0 0 18px rgba(34, 211, 238, 0.28);
+    }
+
+    .primary-cta {
+      width: 100%;
+      padding: 12px 18px;
+      border-radius: 18px;
+      border: 1.5px solid rgba(255, 255, 255, 0.45);
+      background: linear-gradient(135deg, #10b981 0%, #06b6d4 55%, #3b82f6 100%);
+      color: #ffffff;
+      font-family: inherit;
+      font-size: 1.02rem;
+      font-weight: 900;
+      cursor: pointer;
+      box-shadow: 0 10px 28px rgba(6, 182, 212, 0.42);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .secondary-btn {
+      width: 100%;
+      padding: 9px 15px;
+      border-radius: 15px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      background: rgba(255, 255, 255, 0.1);
+      color: #f8fafc;
+      font-family: inherit;
+      font-size: 0.88rem;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    /* Alphabet Progress Drawer Grid */
+    .letters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(54px, 1fr));
+      gap: 8px;
+      padding: 4px 0;
+    }
+
+    .letter-cell {
+      aspect-ratio: 1;
+      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.12rem;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .letter-cell .mini-emoji {
+      font-size: 0.8rem;
+      line-height: 1;
+    }
+
+    .letter-cell.done {
+      background: rgba(16, 185, 129, 0.34);
+      border-color: rgba(52, 211, 153, 0.82);
+      color: #ecfdf5;
+    }
+
+    .letter-cell.current {
+      background: rgba(251, 191, 36, 0.34);
+      border: 2px solid #fbbf24;
+      box-shadow: 0 0 15px rgba(251, 191, 36, 0.5);
+      color: #fef9c3;
+    }
+
+    /* Victory Summary */
+    .victory-stars {
+      font-size: 2.4rem;
+      text-align: center;
+      letter-spacing: 6px;
+      filter: drop-shadow(0 4px 12px rgba(251, 191, 36, 0.6));
+    }
+
+    .victory-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      text-align: center;
+    }
+
+    .v-stat-card {
+      background: rgba(255, 255, 255, 0.09);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 16px;
+      padding: 10px 6px;
+    }
+
+    .v-stat-val {
+      font-family: var(--font-en);
+      font-size: 1.18rem;
+      font-weight: 900;
+      color: #fde68a;
+    }
+
+    .v-stat-lbl {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+
+    .glb-status-tag {
+      text-align: center;
+      font-size: 0.69rem;
+      color: rgba(186, 230, 253, 0.78);
+      font-weight: 600;
+    }
+
+    .publisher-badge {
+      margin-top: 2px;
+      padding: 5px 13px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.42);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      text-align: center;
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #fde68a;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      align-self: center;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.14);
+    }
+
+    @media (max-width: 480px) {
+      .prompt-card {
+        padding: 6px 10px;
+        gap: 9px;
+        min-width: 240px;
+      }
+      .prompt-visual-box {
+        width: 52px;
+        height: 52px;
+        font-size: 1.9rem;
+      }
+      .prompt-visual-box.is-letter {
+        font-size: 2.05rem;
+      }
+      .prompt-instruction {
+        font-size: 0.79rem;
+      }
+      .find-super-btn {
+        width: 70px;
+        height: 70px;
+      }
+      .find-ring-svg {
+        width: 80px;
+        height: 80px;
+      }
+      .hud-pill-btn {
+        padding: 4px 8px;
+        font-size: 0.7rem;
+      }
+      .hud-speed-btn {
+        padding: 3px 7px;
+        font-size: 0.68rem;
+      }
+      .stat-badge {
+        padding: 4px 7px;
+        font-size: 0.72rem;
+      }
+      .icon-btn {
+        height: 32px;
+        min-width: 32px;
+        padding: 0 7px;
+        font-size: 0.78rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-Screen 3D WebGL Canvas -->
+  <canvas id="webgl-canvas"></canvas>
+
+  <!-- Transparent Glassmorphism HUD Layer -->
+  <div id="hud-layer">
+    <div class="top-hud-shell">
+      <!-- Compact Top Glass Bar -->
+      <div class="top-bar-primary">
+        <div style="display:flex; align-items:center; gap:5px; flex-wrap:wrap;">
+          <!-- Live Language Toggle -->
+          <button class="hud-pill-btn glass interactive" id="hud-lang-toggle" title="تغيير اللغة / Switch Language">
+            <span id="hud-lang-text">العربية 28</span>
+          </button>
+
+          <!-- Live Game Mode Pill -->
+          <button class="hud-pill-btn glass interactive" id="hud-mode-toggle" title="تبديل نمط اللعب / Switch Mode">
+            <span id="hud-mode-text">🖼️⬅️حرف</span>
+          </button>
+
+          <!-- Live Speed Segmented Selector (Slow / Medium / Doubly-Fast) -->
+          <div class="hud-speed-group glass" role="group" aria-label="Speed Selector">
+            <button class="hud-speed-btn" data-live-speed="slow" id="live-spd-slow">بطيء</button>
+            <button class="hud-speed-btn active" data-live-speed="medium" id="live-spd-med">متوسط</button>
+            <button class="hud-speed-btn" data-live-speed="fast" id="live-spd-fast">سريع</button>
+          </div>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:5px; margin-inline-start:auto;">
+          <div class="stats-cluster">
+            <div class="stat-badge score glass" title="Score">⭐ <span id="score-val">0</span></div>
+            <div class="stat-badge combo glass" id="combo-badge" title="Streak">🔥 <span id="combo-val">x1</span></div>
+            <div class="stat-badge gems glass" title="Gems">💎 <span id="gems-val">4</span></div>
+          </div>
+
+          <div class="actions-cluster">
+            <button class="icon-btn glass interactive" id="btn-letters-map" title="خريطة الحروف">
+              <span>🔠</span>
+              <span id="drawer-progress-text" style="font-family:var(--font-en); font-size:0.72rem; direction:ltr;">0/28</span>
+            </button>
+            <button class="icon-btn glass interactive" id="btn-audio-menu" aria-label="Audio Settings">🔊</button>
+            <button class="icon-btn glass interactive" id="btn-open-settings" aria-label="Game Menu">⚙️</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Translucent Audio Controls Popover -->
+      <div class="audio-popover glass-strong" id="audio-popover">
+        <div class="audio-toggle-row" id="toggle-sfx">
+          <span id="lbl-sfx">🎵 مؤثرات صوتية</span>
+          <div class="toggle-pill on" id="pill-sfx"></div>
+        </div>
+        <div class="audio-toggle-row" id="toggle-music">
+          <span id="lbl-music">🎶 موسيقى هادئة</span>
+          <div class="toggle-pill on" id="pill-music"></div>
+        </div>
+        <div class="audio-toggle-row" id="toggle-voice">
+          <span id="lbl-voice">🗣️ النطق الصوتي</span>
+          <div class="toggle-pill on" id="pill-voice"></div>
+        </div>
+      </div>
+
+      <!-- Floating Transparent Target Prompt Card (Top-Center) -->
+      <div class="prompt-wrapper">
+        <div class="prompt-card glass interactive" id="prompt-card">
+          <div class="prompt-visual-box" id="prompt-visual">🦁</div>
+          <div class="prompt-info">
+            <div class="mode-chip-row">
+              <span class="mode-chip" id="prompt-mode-chip">🖼️➡️🔤 إيجاد الحرف</span>
+              <span class="prompt-stage-num" id="stage-counter-text">1 / 28</span>
+            </div>
+            <div class="prompt-instruction" id="prompt-instruction">إلتقط الحرف الذي تبدأ به صورة أَسَد</div>
+            <div class="mini-progress-track">
+              <div class="mini-progress-fill" id="stage-progress-fill"></div>
+            </div>
+          </div>
+          <div class="speaker-orb" id="btn-speak-prompt" title="إعادة سماع النطق">🔊</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating Celebration / Reward Toast -->
+    <div class="feedback-toast glass" id="feedback-toast">أ — أَسَد 🦁</div>
+
+    <!-- Bottom Controls Zone: Touch Hint + Smart Find ("زر إيجاد 🔍") -->
+    <div class="bottom-hud">
+      <div class="touch-hint-pill glass">
+        <span>👆</span>
+        <span id="touch-hint-text">اسحب السلة أو التقط الشكل وضعه فيها!</span>
+      </div>
+
+      <div class="find-btn-wrap">
+        <button class="find-super-btn ready" id="btn-smart-find" aria-label="زر إيجاد الذكي">
+          <svg class="find-ring-svg" viewBox="0 0 88 88">
+            <defs>
+              <linearGradient id="findGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#22d3ee" />
+                <stop offset="50%" stop-color="#34d399" />
+                <stop offset="100%" stop-color="#fbbf24" />
+              </linearGradient>
+            </defs>
+            <circle class="find-ring-bg" cx="44" cy="44" r="39"></circle>
+            <circle class="find-ring-progress" id="find-ring-circle" cx="44" cy="44" r="39"></circle>
+          </svg>
+          <span class="find-cost-badge" id="find-badge">100% ⚡</span>
+          <span class="find-icon">🔍</span>
+          <span class="find-label" id="find-btn-label">إيجاد</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Translucent Start / Settings Glass Modal -->
+  <div class="modal-backdrop active" id="menu-modal">
+    <div class="modal-card glass-strong">
+      <div class="brand-header">
+        <div class="brand-logo-badge">🧺</div>
+        <h1 class="brand-title" id="menu-title">سلّة الحروف والأشكال الذكية</h1>
+        <p class="brand-subtitle" id="menu-subtitle">التقط الحروف والصور ثلاثية الأبعاد وضعها في السلة!</p>
+      </div>
+
+      <!-- Language Stage Selection (28 Arabic or 26 English) -->
+      <div class="option-section">
+        <div class="section-label" id="lbl-select-lang">اختر لغة المرحلة الكاملة:</div>
+        <div class="segmented-grid">
+          <button class="choice-btn selected" data-lang="ar">
+            <span>🇸🇦</span>
+            <span>العربية (28 حرف)</span>
+          </button>
+          <button class="choice-btn" data-lang="en" style="font-family:var(--font-en);">
+            <span>🇬🇧</span>
+            <span>English (26)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 3 Educational Game Modes -->
+      <div class="option-section">
+        <div class="section-label" id="lbl-select-mode">نمط اللعب التعليمي:</div>
+        <div class="mode-stack">
+          <button class="choice-btn mode-item selected" data-mode="letter_by_pic">
+            <span class="mode-icon">🖼️➡️🔤</span>
+            <div>
+              <div id="mode1-title">إيجاد حرف عن طريق الصور</div>
+              <span class="mode-desc" id="mode1-desc">شاهد الصورة واسمع اسمها ثم التقط حرفها الأول</span>
+            </div>
+          </button>
+          <button class="choice-btn mode-item" data-mode="pic_by_letter">
+            <span class="mode-icon">🔤➡️🖼️</span>
+            <div>
+              <div id="mode2-title">إيجاد صورة عن طريق حرف</div>
+              <span class="mode-desc" id="mode2-desc">إلتقط صورة تبدأ بالحرف المعروض والمنطوق</span>
+            </div>
+          </button>
+          <button class="choice-btn mode-item" data-mode="mixed">
+            <span class="mode-icon">🔀✨</span>
+            <div>
+              <div id="mode3-title">خليط ذكي بين الإثنين</div>
+              <span class="mode-desc" id="mode3-desc">تبديل ممتع ومتجدد بين إيجاد الحرف وإيجاد الصورة</span>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Order & Speed -->
+      <div class="segmented-grid">
+        <div class="option-section">
+          <div class="section-label" id="lbl-order">ترتيب الحروف:</div>
+          <div class="segmented-grid">
+            <button class="choice-btn selected" data-order="seq" id="btn-order-seq">ترتيبي</button>
+            <button class="choice-btn" data-order="shuf" id="btn-order-shuf">عشوائي</button>
+          </div>
+        </div>
+        <div class="option-section">
+          <div class="section-label" id="lbl-speed">السرعة:</div>
+          <div class="segmented-grid cols-3">
+            <button class="choice-btn" data-speed="slow" id="btn-spd-slow">بطيء</button>
+            <button class="choice-btn selected" data-speed="medium" id="btn-spd-med">متوسط</button>
+            <button class="choice-btn" data-speed="fast" id="btn-spd-fast">سريع</button>
+          </div>
+        </div>
+      </div>
+
+      <button class="primary-cta interactive" id="btn-start-game">
+        <span>🚀</span>
+        <span id="btn-start-text">ابدأ اللعب الآن</span>
+      </button>
+      <button class="secondary-btn interactive" id="btn-resume-game" style="display:none;">متابعة المرحلة الحالية ▶️</button>
+      <div class="glb-status-tag" id="glb-status-tag">✨ عالم ثلاثي الأبعاد تفاعلي مع مجسمات GLB مفتوحة المصدر</div>
+      <div class="publisher-badge" id="menu-publisher-badge">
+        <span>✦</span>
+        <span id="menu-publisher-text">الناشر: Wesam Nafaa - وسام نفاع</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Translucent Alphabet Progress Drawer Modal -->
+  <div class="modal-backdrop" id="map-modal">
+    <div class="modal-card glass-strong">
+      <div class="brand-header">
+        <h2 class="brand-title" id="map-modal-title">خريطة الحروف (28 حرفاً)</h2>
+        <p class="brand-subtitle" id="map-modal-sub">اضغط على أي حرف لسماع نطقه وكلمته 🔊</p>
+      </div>
+      <div class="letters-grid" id="letters-map-grid"></div>
+      <button class="secondary-btn interactive" id="btn-close-map">إغلاق والعودة للعب ✕</button>
+    </div>
+  </div>
+
+  <!-- Translucent Stage Complete Victory Modal -->
+  <div class="modal-backdrop" id="victory-modal">
+    <div class="modal-card glass-strong">
+      <div class="brand-header">
+        <div class="brand-logo-badge">🏆</div>
+        <h2 class="brand-title" id="victory-title">أحسنت! أتممت المرحلة كاملة!</h2>
+        <p class="brand-subtitle" id="victory-sub">لقد جمعت كل الحروف والأشكال ببراعة في السلة الذكية</p>
+      </div>
+      <div class="victory-stars" id="victory-stars">⭐⭐⭐</div>
+      <div class="victory-stats-grid">
+        <div class="v-stat-card">
+          <div class="v-stat-val" id="vic-letters">28/28</div>
+          <div class="v-stat-lbl" id="vic-lbl-letters">الحروف</div>
+        </div>
+        <div class="v-stat-card">
+          <div class="v-stat-val" id="vic-accuracy">98%</div>
+          <div class="v-stat-lbl" id="vic-lbl-acc">الدقة</div>
+        </div>
+        <div class="v-stat-card">
+          <div class="v-stat-val" id="vic-score">280</div>
+          <div class="v-stat-lbl" id="vic-lbl-score">النقاط ⭐</div>
+        </div>
+      </div>
+      <button class="primary-cta interactive" id="btn-play-next-stage">⏭️ المرحلة التالية (تبديل النمط)</button>
+      <button class="secondary-btn interactive" id="btn-play-again">🔄 إعادة المرحلة الحالية</button>
+      <button class="secondary-btn interactive" id="btn-victory-menu">⚙️ القائمة والإعدادات</button>
+      <div class="publisher-badge" id="victory-publisher-badge">
+        <span>✦</span>
+        <span id="victory-publisher-text">الناشر: Wesam Nafaa - وسام نفاع</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Pure Vanilla ES6+ Game Script (Strictly No TypeScript) -->
+  <script type="module">
+    import * as THREE from 'three';
+    import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+    /* =========================================================================
+       1. COMPLETE EDUCATIONAL DATASETS (28 ARABIC + 26 ENGLISH LETTERS)
+          Includes exact definite-article Arabic letter names (الألف .. الياء)
+          for natural Arabic grammar in voice & HUD prompts.
+       ========================================================================= */
+    const ARABIC_LETTERS = [
+      { id: 'ar_01', letter: 'أ', arName: 'الألف', word: 'أَسَد', cleanWord: 'أسد', emoji: '🦁', fem: false },
+      { id: 'ar_02', letter: 'ب', arName: 'الباء', word: 'بَطَّة', cleanWord: 'بطة', emoji: '🦆', fem: true },
+      { id: 'ar_03', letter: 'ت', arName: 'التاء', word: 'تُفَّاحَة', cleanWord: 'تفاحة', emoji: '🍎', fem: true },
+      { id: 'ar_04', letter: 'ث', arName: 'الثاء', word: 'ثَعْلَب', cleanWord: 'ثعلب', emoji: '🦊', fem: false },
+      { id: 'ar_05', letter: 'ج', arName: 'الجيم', word: 'جَمَل', cleanWord: 'جمل', emoji: '🐪', fem: false },
+      { id: 'ar_06', letter: 'ح', arName: 'الحاء', word: 'حِصَان', cleanWord: 'حصان', emoji: '🐴', fem: false },
+      { id: 'ar_07', letter: 'خ', arName: 'الخاء', word: 'خَرُوف', cleanWord: 'خروف', emoji: '🐑', fem: false },
+      { id: 'ar_08', letter: 'د', arName: 'الدال', word: 'دُب', cleanWord: 'دب', emoji: '🐻', fem: false },
+      { id: 'ar_09', letter: 'ذ', arName: 'الذال', word: 'ذُرَة', cleanWord: 'ذرة', emoji: '🌽', fem: true },
+      { id: 'ar_10', letter: 'ر', arName: 'الراء', word: 'رِيشَة', cleanWord: 'ريشة', emoji: '🪶', fem: true },
+      { id: 'ar_11', letter: 'ز', arName: 'الزاي', word: 'زَرَافَة', cleanWord: 'زرافة', emoji: '🦒', fem: true },
+      { id: 'ar_12', letter: 'س', arName: 'السين', word: 'سَمَكَة', cleanWord: 'سمكة', emoji: '🐟', fem: true },
+      { id: 'ar_13', letter: 'ش', arName: 'الشين', word: 'شَمْس', cleanWord: 'شمس', emoji: '☀️', fem: true },
+      { id: 'ar_14', letter: 'ص', arName: 'الصاد', word: 'صَارُوخ', cleanWord: 'صاروخ', emoji: '🚀', fem: false },
+      { id: 'ar_15', letter: 'ض', arName: 'الضاد', word: 'ضِفْدَع', cleanWord: 'ضفدع', emoji: '🐸', fem: false },
+      { id: 'ar_16', letter: 'ط', arName: 'الطاء', word: 'طَائِرَة', cleanWord: 'طائرة', emoji: '✈️', fem: true },
+      { id: 'ar_17', letter: 'ظ', arName: 'الظاء', word: 'ظَرْف', cleanWord: 'ظرف', emoji: '✉️', fem: false },
+      { id: 'ar_18', letter: 'ع', arName: 'العين', word: 'عِنَب', cleanWord: 'عنب', emoji: '🍇', fem: false },
+      { id: 'ar_19', letter: 'غ', arName: 'الغين', word: 'غَيْمَة', cleanWord: 'غيمة', emoji: '☁️', fem: true },
+      { id: 'ar_20', letter: 'ف', arName: 'الفاء', word: 'فَرَاشَة', cleanWord: 'فراشة', emoji: '🦋', fem: true },
+      { id: 'ar_21', letter: 'ق', arName: 'القاف', word: 'قَمَر', cleanWord: 'قمر', emoji: '🌙', fem: false },
+      { id: 'ar_22', letter: 'ك', arName: 'الكاف', word: 'كُرَة', cleanWord: 'كرة', emoji: '⚽', fem: true },
+      { id: 'ar_23', letter: 'ل', arName: 'اللام', word: 'لَيْمُون', cleanWord: 'ليمون', emoji: '🍋', fem: false },
+      { id: 'ar_24', letter: 'م', arName: 'الميم', word: 'مَوْزَة', cleanWord: 'موزة', emoji: '🍌', fem: true },
+      { id: 'ar_25', letter: 'ن', arName: 'النون', word: 'نَحْلَة', cleanWord: 'نحلة', emoji: '🐝', fem: true },
+      { id: 'ar_26', letter: 'هـ', arName: 'الهاء', word: 'هَدِيَّة', cleanWord: 'هدية', emoji: '🎁', fem: true },
+      { id: 'ar_27', letter: 'و', arName: 'الواو', word: 'وَرْدَة', cleanWord: 'وردة', emoji: '🌹', fem: true },
+      { id: 'ar_28', letter: 'ي', arName: 'الياء', word: 'يَد', cleanWord: 'يد', emoji: '✋', fem: true }
+    ];
+
+    const ENGLISH_LETTERS = [
+      { id: 'en_01', letter: 'A', word: 'Apple', cleanWord: 'Apple', emoji: '🍎' },
+      { id: 'en_02', letter: 'B', word: 'Butterfly', cleanWord: 'Butterfly', emoji: '🦋' },
+      { id: 'en_03', letter: 'C', word: 'Camel', cleanWord: 'Camel', emoji: '🐪' },
+      { id: 'en_04', letter: 'D', word: 'Dolphin', cleanWord: 'Dolphin', emoji: '🐬' },
+      { id: 'en_05', letter: 'E', word: 'Elephant', cleanWord: 'Elephant', emoji: '🐘' },
+      { id: 'en_06', letter: 'F', word: 'Fish', cleanWord: 'Fish', emoji: '🐟' },
+      { id: 'en_07', letter: 'G', word: 'Giraffe', cleanWord: 'Giraffe', emoji: '🦒' },
+      { id: 'en_08', letter: 'H', word: 'Horse', cleanWord: 'Horse', emoji: '🐴' },
+      { id: 'en_09', letter: 'I', word: 'Ice Cream', cleanWord: 'Ice Cream', emoji: '🍦' },
+      { id: 'en_10', letter: 'J', word: 'Juice', cleanWord: 'Juice', emoji: '🧃' },
+      { id: 'en_11', letter: 'K', word: 'Kite', cleanWord: 'Kite', emoji: '🪁' },
+      { id: 'en_12', letter: 'L', word: 'Lion', cleanWord: 'Lion', emoji: '🦁' },
+      { id: 'en_13', letter: 'M', word: 'Monkey', cleanWord: 'Monkey', emoji: '🐵' },
+      { id: 'en_14', letter: 'N', word: 'Note', cleanWord: 'Note', emoji: '🎵' },
+      { id: 'en_15', letter: 'O', word: 'Octopus', cleanWord: 'Octopus', emoji: '🐙' },
+      { id: 'en_16', letter: 'P', word: 'Penguin', cleanWord: 'Penguin', emoji: '🐧' },
+      { id: 'en_17', letter: 'Q', word: 'Queen', cleanWord: 'Queen', emoji: '👑' },
+      { id: 'en_18', letter: 'R', word: 'Rocket', cleanWord: 'Rocket', emoji: '🚀' },
+      { id: 'en_19', letter: 'S', word: 'Sun', cleanWord: 'Sun', emoji: '☀️' },
+      { id: 'en_20', letter: 'T', word: 'Turtle', cleanWord: 'Turtle', emoji: '🐢' },
+      { id: 'en_21', letter: 'U', word: 'Umbrella', cleanWord: 'Umbrella', emoji: '☂️' },
+      { id: 'en_22', letter: 'V', word: 'Violin', cleanWord: 'Violin', emoji: '🎻' },
+      { id: 'en_23', letter: 'W', word: 'Watermelon', cleanWord: 'Watermelon', emoji: '🍉' },
+      { id: 'en_24', letter: 'X', word: 'Xylophone', cleanWord: 'Xylophone', emoji: '🎹' },
+      { id: 'en_25', letter: 'Y', word: 'Yacht', cleanWord: 'Yacht', emoji: '⛵' },
+      { id: 'en_26', letter: 'Z', word: 'Zebra', cleanWord: 'Zebra', emoji: '🦓' }
+    ];
+
+    // 6 Glossy Candy 3D Geometric Shapes
+    const SHAPE_TYPES = [
+      { key: 'star', ar: 'نجمة', en: 'Star', color: 0xf59e0b, glow: '#fbbf24' },
+      { key: 'cube', ar: 'مكعب', en: 'Cube', color: 0x10b981, glow: '#34d399' },
+      { key: 'gem', ar: 'جوهرة', en: 'Gem', color: 0xf43f5e, glow: '#fb7185' },
+      { key: 'torus', ar: 'حلقة', en: 'Ring', color: 0x06b6d4, glow: '#22d3ee' },
+      { key: 'hexagon', ar: 'سداسي', en: 'Hexagon', color: 0x8b5cf6, glow: '#a78bfa' },
+      { key: 'heart', ar: 'قلب', en: 'Heart', color: 0xec4899, glow: '#f472b6' }
+    ];
+
+    // Speed Presets (CRITICAL REQUIREMENT #4: Doubled Fast Speed = 10.6, spawnInterval = 0.50s)
+    const SPEED_CONFIG = {
+      slow:   { fallSpeed: 2.2,  spawnInterval: 1.90, maxTokens: 5 },
+      medium: { fallSpeed: 3.7,  spawnInterval: 1.25, maxTokens: 6 },
+      fast:   { fallSpeed: 10.6, spawnInterval: 0.50, maxTokens: 11 }
+    };
+
+    // Instant Gem Unlock Cost for "زر إيجاد 🔍" when partially charged
+    const FIND_GEM_COST = 2;
+
+    // Tablet & Computer Detection (CRITICAL REQUIREMENT #3: 2.0x Falling Shapes on >= 768px ONLY)
+    const isLargeScreen = () => window.innerWidth >= 768;
+    const getFallingTokenScale = () => (isLargeScreen() ? 2.0 : 1.0);
+
+    /* =========================================================================
+       2. PROCEDURAL WEB AUDIO SYNTHESIZER + NATURAL ARABIC/ENGLISH SPEECH
+       ========================================================================= */
+    class SoundAndSpeechEngine {
+      constructor() {
+        this.ctx = null;
+        this.sfxEnabled = true;
+        this.musicEnabled = true;
+        this.voiceEnabled = true;
+        this.musicTimer = null;
+        this.melodyStep = 0;
+        this.voices = [];
+
+        if ('speechSynthesis' in window) {
+          const loadVoices = () => {
+            this.voices = window.speechSynthesis.getVoices() || [];
+          };
+          loadVoices();
+          window.speechSynthesis.onvoiceschanged = loadVoices;
+        }
+      }
+
+      unlock() {
+        if (!this.ctx) {
+          const AudioCtx = window.AudioContext || window.webkitAudioContext;
+          if (AudioCtx) this.ctx = new AudioCtx();
+        }
+        if (this.ctx && this.ctx.state === 'suspended') {
+          this.ctx.resume();
+        }
+        if (this.musicEnabled && !this.musicTimer) {
+          this.startBackgroundMusic();
+        }
+      }
+
+      playTone(freq, duration = 0.16, type = 'sine', volume = 0.15, delay = 0, slideTo = null) {
+        if (!this.sfxEnabled || !this.ctx) return;
+        const now = this.ctx.currentTime + delay;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, now);
+        if (slideTo) {
+          osc.frequency.exponentialRampToValueAtTime(slideTo, now + duration);
+        }
+
+        gain.gain.setValueAtTime(0.0001, now);
+        gain.gain.linearRampToValueAtTime(volume, now + 0.014);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
+
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now);
+        osc.stop(now + duration + 0.02);
+      }
+
+      playClick() {
+        this.unlock();
+        this.playTone(680, 0.07, 'sine', 0.11, 0, 940);
+      }
+
+      playGrab() {
+        this.unlock();
+        this.playTone(460, 0.09, 'triangle', 0.12, 0, 700);
+      }
+
+      playCatchCorrect(combo = 1) {
+        this.unlock();
+        const boost = Math.min(combo - 1, 7) * 30;
+        const notes = [523.25 + boost, 659.25 + boost, 783.99 + boost, 1046.5 + boost];
+        notes.forEach((n, idx) => {
+          this.playTone(n, 0.22, 'triangle', 0.16, idx * 0.055);
+        });
+        if (navigator.vibrate) navigator.vibrate(25);
+      }
+
+      playCatchWrong() {
+        this.unlock();
+        // Soft playful boing
+        this.playTone(250, 0.22, 'sine', 0.12, 0, 145);
+        this.playTone(185, 0.2, 'triangle', 0.11, 0.07, 130);
+        if (navigator.vibrate) navigator.vibrate([25, 35, 25]);
+      }
+
+      playRewardStar() {
+        this.unlock();
+        [587.33, 783.99, 987.77, 1174.66, 1567.98].forEach((f, i) => {
+          this.playTone(f, 0.2, 'sine', 0.14, i * 0.045);
+        });
+      }
+
+      playFindSuperpower() {
+        this.unlock();
+        // Sci-fi radar + tractor shimmer
+        this.playTone(330, 0.45, 'sine', 0.16, 0, 990);
+        this.playTone(495, 0.45, 'triangle', 0.13, 0.07, 1320);
+        this.playTone(880, 0.34, 'sine', 0.14, 0.22, 1480);
+        if (navigator.vibrate) navigator.vibrate([20, 30, 50]);
+      }
+
+      playVictoryFanfare() {
+        this.unlock();
+        const melody = [523.25, 659.25, 783.99, 1046.5, 987.77, 1046.5, 1318.5];
+        const delays = [0, 0.1, 0.2, 0.32, 0.48, 0.6, 0.75];
+        melody.forEach((f, i) => {
+          this.playTone(f, 0.34, 'triangle', 0.18, delays[i]);
+        });
+      }
+
+      startBackgroundMusic() {
+        if (this.musicTimer) return;
+        const scale = [523.25, 587.33, 659.25, 783.99, 880.0, 1046.5, 783.99, 659.25];
+        this.musicTimer = setInterval(() => {
+          if (!this.musicEnabled || !this.ctx || this.ctx.state !== 'running' || document.hidden) return;
+          const note = scale[this.melodyStep % scale.length];
+          this.melodyStep++;
+          const now = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(note, now);
+          gain.gain.setValueAtTime(0.0001, now);
+          gain.gain.linearRampToValueAtTime(0.03, now + 0.03);
+          gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.5);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(now);
+          osc.stop(now + 0.54);
+        }, 580);
+      }
+
+      speak(text, lang = 'ar') {
+        if (!this.voiceEnabled || !('speechSynthesis' in window)) return;
+        try {
+          window.speechSynthesis.cancel();
+          const utter = new SpeechSynthesisUtterance(text);
+          utter.lang = lang === 'ar' ? 'ar-SA' : 'en-US';
+          utter.rate = lang === 'ar' ? 0.94 : 0.96;
+          utter.pitch = 1.05;
+
+          if (this.voices.length === 0) {
+            this.voices = window.speechSynthesis.getVoices() || [];
+          }
+          const prefix = lang === 'ar' ? 'ar' : 'en';
+          const preferred =
+            this.voices.find(v => v.lang && v.lang.toLowerCase() === (lang === 'ar' ? 'ar-sa' : 'en-us')) ||
+            this.voices.find(v => v.lang && v.lang.toLowerCase().startsWith(prefix));
+          if (preferred) utter.voice = preferred;
+
+          window.speechSynthesis.speak(utter);
+        } catch (_) {
+          // Graceful fallback if speech synthesis is unavailable
+        }
+      }
+    }
+
+    const audio = new SoundAndSpeechEngine();
+
+    /* =========================================================================
+       3. GAME STATE & SMART 5-SLOT WAVE RANDOMIZER (CRITICAL REQUIREMENT #1)
+       ========================================================================= */
+    const state = {
+      running: false,
+      paused: true,
+      lang: 'ar',                  // 'ar' (28) | 'en' (26)
+      mode: 'letter_by_pic',       // 'letter_by_pic' | 'pic_by_letter' | 'mixed'
+      activeSubMode: 'letter_by_pic',
+      order: 'seq',                // 'seq' | 'shuf'
+      speed: 'medium',             // 'slow' | 'medium' | 'fast'
+
+      sequence: [],
+      currentIndex: 0,
+      completedIds: new Set(),
+
+      score: 0,
+      gems: 4,                     // Gems (💎) for instant "زر إيجاد" unlock & streak rewards
+      combo: 1,
+      totalAttempts: 0,
+      correctCatches: 0,
+
+      // Smart Find ("زر إيجاد 🔍") Reward System
+      findEnergy: 100,             // Starts 100% charged so player can test & enjoy immediately
+      findBeamActive: false,
+
+      // Smart 5-Slot Wave Randomizer State (Indices 0..4 => 1st, 2nd, 3rd, 4th, 5th)
+      // Initialized to 0 so the very first wave NEVER drops the target as the 1st item!
+      lastTargetSlot: 0,
+      waveQueue: [],
+
+      spawnCooldown: 0.35,
+      bonusCooldown: 8.5
+    };
+
+    function shuffleArray(arr) {
+      const copy = [...arr];
+      for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+      return copy;
+    }
+
+    /**
+     * Builds a 5-item spawn wave where the target is placed randomly at slot 0, 1, 2, 3, or 4
+     * (1st, 2nd, 3rd, 4th, or 5th) while strictly avoiding `state.lastTargetSlot` so consecutive
+     * waves genuinely vary ("مرة الأول، مرة الثالث، مرة الثاني، مرة الخامس") and round 1 never
+     * drops the target first!
+     */
+    function generateNextWaveQueue() {
+      const target = getCurrentTargetItem();
+      if (!target) return;
+
+      const alphabet = state.lang === 'ar' ? ARABIC_LETTERS : ENGLISH_LETTERS;
+      const allSlots = [0, 1, 2, 3, 4];
+      const allowedSlots = allSlots.filter(slot => slot !== state.lastTargetSlot);
+      const chosenSlot = allowedSlots[Math.floor(Math.random() * allowedSlots.length)];
+      state.lastTargetSlot = chosenSlot;
+
+      // Pick 4 distinct distractors (never duplicating target)
+      const distractors = shuffleArray(alphabet.filter(item => item.id !== target.id)).slice(0, 4);
+
+      const wave = new Array(5);
+      let dIdx = 0;
+      for (let s = 0; s < 5; s++) {
+        if (s === chosenSlot) {
+          wave[s] = { itemData: target, isTarget: true };
+        } else {
+          wave[s] = { itemData: distractors[dIdx++], isTarget: false };
+        }
+      }
+
+      state.waveQueue = wave;
+    }
+
+    /* =========================================================================
+       4. THREE.JS FULL-SCREEN 3D WORLD & OPEN-SOURCE GLB COMPANIONS
+       ========================================================================= */
+    const canvas = document.getElementById('webgl-canvas');
+    const renderer = new THREE.WebGLRenderer({
+      canvas,
+      antialias: true,
+      alpha: true,
+      powerPreference: 'high-performance'
+    });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.14;
+
+    const scene = new THREE.Scene();
+    scene.fog = new THREE.FogExp2(0x162a4a, 0.02);
+
+    const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 130);
+    camera.position.set(0, 0.2, 16);
+    camera.lookAt(0, 0, 0);
+
+    const worldBounds = {
+      width: 8,
+      height: 14.9,
+      spawnHalfW: 3.0,
+      basketHalfW: 3.3,
+      basketY: -4.7,
+      spawnY: 5.5
+    };
+
+    // Scene Lighting
+    scene.add(new THREE.HemisphereLight(0xdbeafe, 0x1e293b, 1.38));
+
+    const dirLight = new THREE.DirectionalLight(0xfffbeb, 1.7);
+    dirLight.position.set(6, 12, 11);
+    scene.add(dirLight);
+
+    const rimLight = new THREE.DirectionalLight(0x38bdf8, 0.95);
+    rimLight.position.set(-8, 5, -6);
+    scene.add(rimLight);
+
+    // Scenic 3D Background Group
+    const envGroup = new THREE.Group();
+    scene.add(envGroup);
+
+    // Floating Starfield Motes
+    const starCount = 135;
+    const starPositions = new Float32Array(starCount * 3);
+    for (let i = 0; i < starCount; i++) {
+      starPositions[i * 3] = (Math.random() - 0.5) * 32;
+      starPositions[i * 3 + 1] = (Math.random() - 0.5) * 24;
+      starPositions[i * 3 + 2] = -4 - Math.random() * 14;
+    }
+    const starGeo = new THREE.BufferGeometry();
+    starGeo.setAttribute('position', new THREE.BufferAttribute(starPositions, 3));
+    const starField = new THREE.Points(
+      starGeo,
+      new THREE.PointsMaterial({ color: 0xe0f2fe, size: 0.14, transparent: true, opacity: 0.76 })
+    );
+    envGroup.add(starField);
+
+    // Left Floating Crystal Island (RobotExpressive.glb Cheerleader Platform)
+    const buddyIsland = new THREE.Group();
+    envGroup.add(buddyIsland);
+
+    const islandRock = new THREE.Mesh(
+      new THREE.ConeGeometry(1.35, 1.7, 7),
+      new THREE.MeshStandardMaterial({ color: 0x334155, flatShading: true, roughness: 0.7 })
+    );
+    islandRock.rotation.x = Math.PI;
+    islandRock.position.y = -0.85;
+    buddyIsland.add(islandRock);
+
+    const islandTop = new THREE.Mesh(
+      new THREE.CylinderGeometry(1.42, 1.32, 0.28, 7),
+      new THREE.MeshStandardMaterial({ color: 0x10b981, flatShading: true, roughness: 0.45 })
+    );
+    buddyIsland.add(islandTop);
+
+    const islandRing = new THREE.Mesh(
+      new THREE.TorusGeometry(1.55, 0.045, 12, 36),
+      new THREE.MeshBasicMaterial({ color: 0x22d3ee, transparent: true, opacity: 0.65 })
+    );
+    islandRing.rotation.x = Math.PI / 2;
+    islandRing.position.y = -0.1;
+    buddyIsland.add(islandRing);
+
+    // Instant Non-Blocking Procedural Mascot Fallback while GLB streams in
+    const fallbackBuddy = new THREE.Mesh(
+      new THREE.OctahedronGeometry(0.45, 1),
+      new THREE.MeshStandardMaterial({
+        color: 0x38bdf8,
+        emissive: 0x0284c7,
+        emissiveIntensity: 0.5,
+        metalness: 0.3,
+        roughness: 0.2
+      })
+    );
+    fallbackBuddy.position.y = 0.75;
+    buddyIsland.add(fallbackBuddy);
+
+    // Right Floating Cloud Island
+    const duckCloud = new THREE.Group();
+    envGroup.add(duckCloud);
+    const cloudMat = new THREE.MeshStandardMaterial({ color: 0xf8fafc, roughness: 0.85 });
+    [
+      [0, 0, 0, 0.72],
+      [-0.55, -0.1, 0.1, 0.52],
+      [0.58, -0.08, 0.08, 0.54],
+      [0.15, 0.22, -0.15, 0.5]
+    ].forEach(([cx, cy, cz, cr]) => {
+      const puff = new THREE.Mesh(new THREE.SphereGeometry(cr, 16, 14), cloudMat);
+      puff.position.set(cx, cy, cz);
+      duckCloud.add(puff);
+    });
+
+    // Open-Source GLB Loader with Official + CDN Mirror Fallback
+    const gltfLoader = new GLTFLoader();
+    const mixers = [];
+    const robotActions = {};
+    let currentRobotAction = null;
+    const flyingBirds = [];
+
+    function loadGLBWithFallback(urls, onLoaded) {
+      let index = 0;
+      const tryNext = () => {
+        if (index >= urls.length) return;
+        const currentUrl = urls[index++];
+        gltfLoader.load(currentUrl, onLoaded, undefined, tryNext);
+      };
+      tryNext();
+    }
+
+    function playRobotEmotion(name, revertToIdle = true) {
+      const targetAction = robotActions[name];
+      if (!targetAction) return;
+      if (currentRobotAction && currentRobotAction !== targetAction) {
+        currentRobotAction.fadeOut(0.2);
+      }
+      targetAction.reset().fadeIn(0.2).play();
+      currentRobotAction = targetAction;
+
+      if (revertToIdle && name !== 'Idle') {
+        targetAction.setLoop(THREE.LoopOnce, 1);
+        targetAction.clampWhenFinished = true;
+        setTimeout(() => {
+          if (robotActions['Idle']) playRobotEmotion('Idle', false);
+        }, 1800);
+      }
+    }
+
+    function initOpenSourceGLBModels() {
+      const glbStatus = document.getElementById('glb-status-tag');
+      let loadedCount = 0;
+      const markLoaded = () => {
+        loadedCount++;
+        if (glbStatus) {
+          glbStatus.textContent = state.lang === 'ar'
+            ? `✨ تم دمج المجسمات ثلاثية الأبعاد مفتوحة المصدر (${loadedCount}/4 GLB)`
+            : `✨ Open-Source 3D GLB Companions Active (${loadedCount}/4 GLB)`;
+        }
+      };
+
+      // 1. RobotExpressive.glb
+      loadGLBWithFallback(
+        [
+          'https://threejs.org/examples/models/gltf/RobotExpressive/RobotExpressive.glb',
+          'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r160/examples/models/gltf/RobotExpressive/RobotExpressive.glb'
+        ],
+        (gltf) => {
+          buddyIsland.remove(fallbackBuddy);
+          const robot = gltf.scene;
+          robot.scale.setScalar(0.36);
+          robot.position.set(0, 0.14, 0);
+          robot.rotation.y = 0.35;
+          buddyIsland.add(robot);
+
+          const mixer = new THREE.AnimationMixer(robot);
+          mixers.push(mixer);
+          gltf.animations.forEach(clip => {
+            robotActions[clip.name] = mixer.clipAction(clip);
+          });
+          if (robotActions['Wave']) playRobotEmotion('Wave', true);
+          else if (robotActions['Idle']) playRobotEmotion('Idle', false);
+          markLoaded();
+        }
+      );
+
+      // 2. Khronos Duck.glb
+      loadGLBWithFallback(
+        ['https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Models@master/2.0/Duck/glTF-Binary/Duck.glb'],
+        (gltf) => {
+          const duck = gltf.scene;
+          duck.scale.setScalar(0.62);
+          duck.position.set(0, 0.42, 0.1);
+          duck.rotation.y = -0.7;
+          duckCloud.add(duck);
+          markLoaded();
+        }
+      );
+
+      // 3 & 4. Parrot.glb & Flamingo.glb flying across the 3D sky
+      [
+        {
+          urls: [
+            'https://threejs.org/examples/models/gltf/Parrot.glb',
+            'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r160/examples/models/gltf/Parrot.glb'
+          ],
+          scale: 0.018, y: 4.2, z: -8.5, speed: 1.5, dir: 1
+        },
+        {
+          urls: [
+            'https://threejs.org/examples/models/gltf/Flamingo.glb',
+            'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r160/examples/models/gltf/Flamingo.glb'
+          ],
+          scale: 0.016, y: 2.6, z: -10.5, speed: 1.2, dir: -1
+        }
+      ].forEach(cfg => {
+        loadGLBWithFallback(cfg.urls, (gltf) => {
+          const bird = gltf.scene;
+          bird.scale.setScalar(cfg.scale);
+          bird.position.set(cfg.dir * -9, cfg.y, cfg.z);
+          bird.rotation.y = cfg.dir > 0 ? Math.PI / 2 : -Math.PI / 2;
+          envGroup.add(bird);
+
+          if (gltf.animations && gltf.animations.length > 0) {
+            const mixer = new THREE.AnimationMixer(bird);
+            mixer.clipAction(gltf.animations[0]).play();
+            mixers.push(mixer);
+          }
+          flyingBirds.push({ mesh: bird, speed: cfg.speed, dir: cfg.dir, baseY: cfg.y, phase: Math.random() * 6 });
+          markLoaded();
+        });
+      });
+    }
+
+    initOpenSourceGLBModels();
+
+    /* =========================================================================
+       5. 3D WOVEN & GLOWING SMART BASKET (UNCHANGED PROPORTIONS ON ALL SCREENS)
+       ========================================================================= */
+    const basketGroup = new THREE.Group();
+    scene.add(basketGroup);
+
+    function createWovenBasketTexture() {
+      const c = document.createElement('canvas');
+      c.width = 256;
+      c.height = 256;
+      const ctx = c.getContext('2d');
+
+      const grad = ctx.createLinearGradient(0, 0, 0, 256);
+      grad.addColorStop(0, '#f59e0b');
+      grad.addColorStop(0.5, '#d97706');
+      grad.addColorStop(1, '#92400e');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, 256, 256);
+
+      ctx.strokeStyle = 'rgba(254, 243, 199, 0.34)';
+      ctx.lineWidth = 6;
+      for (let y = 12; y < 256; y += 28) {
+        ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(256, y); ctx.stroke();
+      }
+      for (let x = 12; x < 256; x += 32) {
+        ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, 256); ctx.stroke();
+      }
+
+      const tex = new THREE.CanvasTexture(c);
+      tex.wrapS = THREE.RepeatWrapping;
+      tex.wrapT = THREE.RepeatWrapping;
+      tex.repeat.set(3, 1);
+      tex.colorSpace = THREE.SRGBColorSpace;
+      return tex;
+    }
+
+    const basketShell = new THREE.Mesh(
+      new THREE.CylinderGeometry(1.22, 0.82, 1.18, 28, 1, true),
+      new THREE.MeshStandardMaterial({
+        map: createWovenBasketTexture(),
+        roughness: 0.42,
+        metalness: 0.15,
+        side: THREE.DoubleSide
+      })
+    );
+    basketGroup.add(basketShell);
+
+    const basketBottom = new THREE.Mesh(
+      new THREE.CircleGeometry(0.82, 28),
+      new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.7, side: THREE.DoubleSide })
+    );
+    basketBottom.rotation.x = Math.PI / 2;
+    basketBottom.position.y = -0.58;
+    basketGroup.add(basketBottom);
+
+    const topRim = new THREE.Mesh(
+      new THREE.TorusGeometry(1.23, 0.1, 16, 40),
+      new THREE.MeshStandardMaterial({
+        color: 0xfbbf24,
+        emissive: 0xb45309,
+        emissiveIntensity: 0.25,
+        metalness: 0.55,
+        roughness: 0.25
+      })
+    );
+    topRim.rotation.x = Math.PI / 2;
+    topRim.position.y = 0.58;
+    basketGroup.add(topRim);
+
+    const basketPortalRing = new THREE.Mesh(
+      new THREE.RingGeometry(0.65, 1.12, 32),
+      new THREE.MeshBasicMaterial({
+        color: 0x22d3ee,
+        transparent: true,
+        opacity: 0.38,
+        side: THREE.DoubleSide
+      })
+    );
+    basketPortalRing.rotation.x = Math.PI / 2;
+    basketPortalRing.position.y = 0.48;
+    basketGroup.add(basketPortalRing);
+
+    const basketHandle = new THREE.Mesh(
+      new THREE.TorusGeometry(1.18, 0.065, 12, 32, Math.PI),
+      new THREE.MeshStandardMaterial({ color: 0xfde68a, metalness: 0.5, roughness: 0.3 })
+    );
+    basketHandle.position.y = 0.56;
+    basketHandle.rotation.x = -0.45;
+    basketGroup.add(basketHandle);
+
+    const basketLight = new THREE.PointLight(0x22d3ee, 1.6, 5.5);
+    basketLight.position.set(0, 0.8, 0.6);
+    basketGroup.add(basketLight);
+
+    const railMesh = new THREE.Mesh(
+      new THREE.PlaneGeometry(10, 0.06),
+      new THREE.MeshBasicMaterial({ color: 0x38bdf8, transparent: true, opacity: 0.28 })
+    );
+    scene.add(railMesh);
+
+    const basketPhysics = { targetX: 0, vx: 0, bounceScale: 0 };
+
+    /* =========================================================================
+       6. GLOSSY CANDY 3D SHAPES & 2X TABLET/DESKTOP SCALING (REQUIREMENT #3)
+       ========================================================================= */
+    const tokenTextureCache = new Map();
+    const shapeGeoCache = new Map();
+
+    function getShapeGeometry(shapeKey) {
+      if (shapeGeoCache.has(shapeKey)) return shapeGeoCache.get(shapeKey);
+
+      const extrudeSettings = {
+        depth: 0.24,
+        bevelEnabled: true,
+        bevelSegments: 4,
+        steps: 1,
+        bevelSize: 0.06,
+        bevelThickness: 0.06
+      };
+
+      let geo;
+      if (shapeKey === 'star') {
+        const starShape = new THREE.Shape();
+        const outer = 0.86;
+        const inner = 0.46;
+        for (let i = 0; i < 10; i++) {
+          const angle = (i * Math.PI) / 5 + Math.PI / 2;
+          const r = i % 2 === 0 ? outer : inner;
+          const x = Math.cos(angle) * r;
+          const y = Math.sin(angle) * r;
+          if (i === 0) starShape.moveTo(x, y);
+          else starShape.lineTo(x, y);
+        }
+        starShape.closePath();
+        geo = new THREE.ExtrudeGeometry(starShape, extrudeSettings);
+        geo.center();
+      } else if (shapeKey === 'cube') {
+        const sq = new THREE.Shape();
+        const s = 0.65;
+        const r = 0.19;
+        sq.moveTo(-s + r, -s);
+        sq.lineTo(s - r, -s);
+        sq.quadraticCurveTo(s, -s, s, -s + r);
+        sq.lineTo(s, s - r);
+        sq.quadraticCurveTo(s, s, s - r, s);
+        sq.lineTo(-s + r, s);
+        sq.quadraticCurveTo(-s, s, -s, s - r);
+        sq.lineTo(-s, -s + r);
+        sq.quadraticCurveTo(-s, -s, -s + r, -s);
+        geo = new THREE.ExtrudeGeometry(sq, extrudeSettings);
+        geo.center();
+      } else if (shapeKey === 'gem') {
+        geo = new THREE.OctahedronGeometry(0.86, 0);
+        geo.scale(1, 1, 0.23);
+      } else if (shapeKey === 'torus') {
+        geo = new THREE.TorusGeometry(0.58, 0.22, 18, 36);
+      } else if (shapeKey === 'hexagon') {
+        geo = new THREE.CylinderGeometry(0.82, 0.82, 0.3, 6);
+        geo.rotateX(Math.PI / 2);
+      } else {
+        // 3D Candy Heart Shape
+        const heart = new THREE.Shape();
+        heart.moveTo(0, -0.76);
+        heart.bezierCurveTo(0.85, -0.22, 0.92, 0.56, 0.42, 0.72);
+        heart.bezierCurveTo(0.18, 0.8, 0.04, 0.62, 0, 0.48);
+        heart.bezierCurveTo(-0.04, 0.62, -0.18, 0.8, -0.42, 0.72);
+        heart.bezierCurveTo(-0.92, 0.56, -0.85, -0.22, 0, -0.76);
+        geo = new THREE.ExtrudeGeometry(heart, extrudeSettings);
+        geo.center();
+      }
+
+      shapeGeoCache.set(shapeKey, geo);
+      return geo;
+    }
+
+    function getTokenFaceTexture(displayStr, isPicture, glowHex, shapeLabel) {
+      const cacheKey = `${displayStr}_${isPicture}_${glowHex}_${shapeLabel}`;
+      if (tokenTextureCache.has(cacheKey)) return tokenTextureCache.get(cacheKey);
+
+      const size = 512;
+      const c = document.createElement('canvas');
+      c.width = size;
+      c.height = size;
+      const ctx = c.getContext('2d');
+
+      const rad = ctx.createRadialGradient(256, 230, 30, 256, 256, 240);
+      rad.addColorStop(0, '#1e293b');
+      rad.addColorStop(0.78, '#0f172a');
+      rad.addColorStop(1, glowHex);
+
+      ctx.beginPath();
+      ctx.arc(256, 256, 236, 0, Math.PI * 2);
+      ctx.fillStyle = rad;
+      ctx.fill();
+
+      ctx.lineWidth = 18;
+      ctx.strokeStyle = glowHex;
+      ctx.stroke();
+
+      ctx.lineWidth = 5;
+      ctx.strokeStyle = 'rgba(255,255,255,0.68)';
+      ctx.beginPath();
+      ctx.arc(256, 256, 212, 0, Math.PI * 2);
+      ctx.stroke();
+
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+
+      if (isPicture) {
+        ctx.font = '235px "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif';
+        ctx.fillText(displayStr, 256, 248);
+      } else {
+        ctx.shadowColor = glowHex;
+        ctx.shadowBlur = 24;
+        ctx.fillStyle = '#ffffff';
+        ctx.font = '900 235px "Cairo", "Fredoka", sans-serif';
+        ctx.fillText(displayStr, 256, 242);
+        ctx.shadowBlur = 0;
+      }
+
+      if (shapeLabel) {
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.86)';
+        ctx.font = '700 40px "Cairo", "Fredoka", sans-serif';
+        ctx.fillText(shapeLabel, 256, 418);
+      }
+
+      const tex = new THREE.CanvasTexture(c);
+      tex.colorSpace = THREE.SRGBColorSpace;
+      tex.anisotropy = 4;
+      tokenTextureCache.set(cacheKey, tex);
+      return tex;
+    }
+
+    const activeTokens = [];
+    const particles = [];
+    const shockwaves = [];
+
+    function computeSafeSpawnX(tokenScale) {
+      const lanes = isLargeScreen() ? 5 : 4;
+      let bestX = 0;
+      let maxDist = -1;
+      const topCheckBand = 3.2 * tokenScale;
+
+      for (let attempt = 0; attempt < 6; attempt++) {
+        const laneIdx = Math.floor(Math.random() * lanes);
+        const norm = (laneIdx + 0.5) / lanes - 0.5;
+        const candidateX = norm * (worldBounds.spawnHalfW * 2.0) + (Math.random() - 0.5) * 0.4;
+        const clampedX = THREE.MathUtils.clamp(candidateX, -worldBounds.spawnHalfW, worldBounds.spawnHalfW);
+
+        let nearest = 999;
+        for (const t of activeTokens) {
+          if (t.group.position.y > worldBounds.spawnY - topCheckBand) {
+            nearest = Math.min(nearest, Math.abs(t.group.position.x - clampedX));
+          }
+        }
+        if (nearest > maxDist) {
+          maxDist = nearest;
+          bestX = clampedX;
+        }
+      }
+      return bestX;
+    }
+
+    function createFallingToken(itemData, contentType, isTarget, forcedX = null) {
+      const shapeDef = SHAPE_TYPES[Math.floor(Math.random() * SHAPE_TYPES.length)];
+      const group = new THREE.Group();
+
+      // Glossy Candy PBR Material
+      const bodyGeo = getShapeGeometry(shapeDef.key);
+      const bodyMat = new THREE.MeshPhysicalMaterial({
+        color: shapeDef.color,
+        emissive: shapeDef.color,
+        emissiveIntensity: 0.2,
+        roughness: 0.18,
+        metalness: 0.12,
+        clearcoat: 0.85,
+        clearcoatRoughness: 0.12
+      });
+      const bodyMesh = new THREE.Mesh(bodyGeo, bodyMat);
+      group.add(bodyMesh);
+
+      const isPicture = contentType === 'picture';
+      const displayStr = isPicture ? itemData.emoji : itemData.letter;
+      const shapeLabel = state.lang === 'ar' ? shapeDef.ar : shapeDef.en;
+      const faceTex = getTokenFaceTexture(displayStr, isPicture, shapeDef.glow, shapeLabel);
+
+      const faceMesh = new THREE.Mesh(
+        new THREE.CircleGeometry(0.56, 36),
+        new THREE.MeshBasicMaterial({ map: faceTex, transparent: true })
+      );
+      faceMesh.position.z = 0.24;
+      group.add(faceMesh);
+
+      // Generous raycast hit-sphere (scales automatically with group 2.0x on >=768px!)
+      const hitSphere = new THREE.Mesh(
+        new THREE.SphereGeometry(1.06, 12, 12),
+        new THREE.MeshBasicMaterial({ visible: false })
+      );
+      group.add(hitSphere);
+
+      // Apply 2.0x scale on Tablet & Computer (>= 768px), 1.0x on Mobile (< 768px)
+      const baseScale = getFallingTokenScale();
+      group.scale.setScalar(baseScale);
+
+      const spawnX = forcedX !== null ? forcedX : computeSafeSpawnX(baseScale);
+      group.position.set(spawnX, worldBounds.spawnY + 0.85 * baseScale, 0);
+
+      const spdCfg = SPEED_CONFIG[state.speed] || SPEED_CONFIG.medium;
+      const speedJitter = 0.94 + Math.random() * 0.12;
+
+      const token = {
+        kind: 'edu',
+        itemData,
+        isTarget,
+        shapeDef,
+        group,
+        bodyMesh,
+        hitSphere,
+        baseScale,
+        speedFactor: speedJitter,
+        vy: -(spdCfg.fallSpeed * speedJitter),
+        vx: 0,
+        phase: Math.random() * Math.PI * 2,
+        grabbed: false,
+        magnetLocked: false,
+        bouncedOut: false
+      };
+
+      hitSphere.userData.token = token;
+      bodyMesh.userData.token = token;
+      faceMesh.userData.token = token;
+
+      scene.add(group);
+      activeTokens.push(token);
+      return token;
+    }
+
+    function createRewardToken(bonusType = 'star') {
+      const group = new THREE.Group();
+      const isChest = bonusType === 'chest';
+      const glowHex = isChest ? '#f472b6' : '#fbbf24';
+      const emoji = isChest ? '🎁' : '⭐';
+      const label = state.lang === 'ar' ? 'مكافأة!' : 'Bonus!';
+
+      const bodyGeo = getShapeGeometry(isChest ? 'cube' : 'star');
+      const bodyMat = new THREE.MeshPhysicalMaterial({
+        color: isChest ? 0xec4899 : 0xfbbf24,
+        emissive: isChest ? 0xbe185d : 0xd97706,
+        emissiveIntensity: 0.5,
+        metalness: 0.35,
+        roughness: 0.16,
+        clearcoat: 0.9
+      });
+      const bodyMesh = new THREE.Mesh(bodyGeo, bodyMat);
+      group.add(bodyMesh);
+
+      const faceTex = getTokenFaceTexture(emoji, true, glowHex, label);
+      const faceMesh = new THREE.Mesh(
+        new THREE.CircleGeometry(0.55, 32),
+        new THREE.MeshBasicMaterial({ map: faceTex, transparent: true })
+      );
+      faceMesh.position.z = 0.24;
+      group.add(faceMesh);
+
+      const hitSphere = new THREE.Mesh(
+        new THREE.SphereGeometry(1.08, 12, 12),
+        new THREE.MeshBasicMaterial({ visible: false })
+      );
+      group.add(hitSphere);
+
+      const baseScale = getFallingTokenScale();
+      group.scale.setScalar(baseScale);
+
+      const spawnX = computeSafeSpawnX(baseScale);
+      group.position.set(spawnX, worldBounds.spawnY + 0.85 * baseScale, 0);
+
+      const spdCfg = SPEED_CONFIG[state.speed] || SPEED_CONFIG.medium;
+      const token = {
+        kind: isChest ? 'bonus_chest' : 'bonus_star',
+        isTarget: false,
+        group,
+        bodyMesh,
+        hitSphere,
+        baseScale,
+        speedFactor: 0.92,
+        vy: -(Math.min(spdCfg.fallSpeed, 7.2) * 0.92),
+        vx: 0,
+        phase: Math.random() * 6,
+        grabbed: false,
+        magnetLocked: false,
+        bouncedOut: false
+      };
+
+      hitSphere.userData.token = token;
+      bodyMesh.userData.token = token;
+      faceMesh.userData.token = token;
+
+      scene.add(group);
+      activeTokens.push(token);
+    }
+
+    /* =========================================================================
+       7. CONFETTI PARTICLES, RADAR WAVES & 3D MAGNETIC TRACTOR BEAM
+       ========================================================================= */
+    const pGeo = new THREE.BoxGeometry(0.16, 0.16, 0.16);
+    const confettiColors = [0x22d3ee, 0xfbbf24, 0x34d399, 0xfb7185, 0xa78bfa, 0xffffff];
+
+    function spawnBurstParticles(origin, count = 24, goldenOnly = false) {
+      for (let i = 0; i < count; i++) {
+        const col = goldenOnly
+          ? (i % 2 === 0 ? 0xfbbf24 : 0x22d3ee)
+          : confettiColors[i % confettiColors.length];
+        const mesh = new THREE.Mesh(
+          pGeo,
+          new THREE.MeshBasicMaterial({ color: col, transparent: true, opacity: 1 })
+        );
+        mesh.position.copy(origin);
+        const angle = Math.random() * Math.PI * 2;
+        const speed = 1.8 + Math.random() * 4.5;
+        scene.add(mesh);
+        particles.push({
+          mesh,
+          vx: Math.cos(angle) * speed,
+          vy: Math.abs(Math.sin(angle)) * speed + 1.5,
+          vz: (Math.random() - 0.5) * 2.5,
+          life: 1.0
+        });
+      }
+    }
+
+    function spawnRadarShockwave(origin) {
+      [0xfbbf24, 0x22d3ee].forEach((hexCol, idx) => {
+        const ring = new THREE.Mesh(
+          new THREE.RingGeometry(0.4 + idx * 0.25, 0.62 + idx * 0.25, 42),
+          new THREE.MeshBasicMaterial({
+            color: hexCol,
+            transparent: true,
+            opacity: 0.9,
+            side: THREE.DoubleSide
+          })
+        );
+        ring.position.set(origin.x, origin.y + 0.45, 0.25);
+        scene.add(ring);
+        shockwaves.push({ mesh: ring, scale: 1, opacity: 0.9 });
+      });
+    }
+
+    let activeLaserLine = null;
+    let activeTargetHalo = null;
+
+    function createOrUpdateTractorBeam(startPos, endPos, targetScale = 1.0) {
+      const mid = new THREE.Vector3(
+        (startPos.x + endPos.x) * 0.5,
+        (startPos.y + endPos.y) * 0.5 + 0.9,
+        1.2
+      );
+      const curve = new THREE.QuadraticBezierCurve3(startPos, mid, endPos);
+      const tubeGeo = new THREE.TubeGeometry(curve, 24, 0.09, 8, false);
+
+      if (!activeLaserLine) {
+        activeLaserLine = new THREE.Mesh(
+          tubeGeo,
+          new THREE.MeshBasicMaterial({ color: 0xfbbf24, transparent: true, opacity: 0.9 })
+        );
+        scene.add(activeLaserLine);
+      } else {
+        activeLaserLine.geometry.dispose();
+        activeLaserLine.geometry = tubeGeo;
+      }
+
+      if (!activeTargetHalo) {
+        activeTargetHalo = new THREE.Mesh(
+          new THREE.TorusGeometry(1.02, 0.075, 12, 36),
+          new THREE.MeshBasicMaterial({ color: 0x22d3ee, transparent: true, opacity: 0.94 })
+        );
+        scene.add(activeTargetHalo);
+      }
+      activeTargetHalo.scale.setScalar(targetScale);
+      activeTargetHalo.position.copy(endPos);
+      activeTargetHalo.rotation.z += 0.15;
+    }
+
+    function clearTractorBeam() {
+      if (activeLaserLine) {
+        activeLaserLine.geometry.dispose();
+        scene.remove(activeLaserLine);
+        activeLaserLine = null;
+      }
+      if (activeTargetHalo) {
+        activeTargetHalo.geometry.dispose();
+        scene.remove(activeTargetHalo);
+        activeTargetHalo = null;
+      }
+      state.findBeamActive = false;
+    }
+
+    /* =========================================================================
+       8. STAGE PROGRESSION, EXACT ARABIC/ENGLISH PROMPTS & REWARD SYSTEM
+       ========================================================================= */
+    const ui = {
+      hudLangText: document.getElementById('hud-lang-text'),
+      hudModeText: document.getElementById('hud-mode-text'),
+      scoreVal: document.getElementById('score-val'),
+      comboBadge: document.getElementById('combo-badge'),
+      comboVal: document.getElementById('combo-val'),
+      gemsVal: document.getElementById('gems-val'),
+      drawerProgress: document.getElementById('drawer-progress-text'),
+      counterText: document.getElementById('stage-counter-text'),
+      progressFill: document.getElementById('stage-progress-fill'),
+      promptCard: document.getElementById('prompt-card'),
+      promptVisual: document.getElementById('prompt-visual'),
+      promptChip: document.getElementById('prompt-mode-chip'),
+      promptInstruction: document.getElementById('prompt-instruction'),
+      toast: document.getElementById('feedback-toast'),
+      findBtn: document.getElementById('btn-smart-find'),
+      findRing: document.getElementById('find-ring-circle'),
+      findBadge: document.getElementById('find-badge'),
+      findLabel: document.getElementById('find-btn-label'),
+      touchHint: document.getElementById('touch-hint-text'),
+      menuModal: document.getElementById('menu-modal'),
+      mapModal: document.getElementById('map-modal'),
+      victoryModal: document.getElementById('victory-modal'),
+      lettersGrid: document.getElementById('letters-map-grid'),
+      resumeBtn: document.getElementById('btn-resume-game')
+    };
+
+    let toastTimer = null;
+    function showToast(htmlText, styleClass = 'success', duration = 1800) {
+      ui.toast.className = `feedback-toast glass ${styleClass} show`;
+      ui.toast.innerHTML = htmlText;
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        ui.toast.classList.remove('show');
+      }, duration);
+    }
+
+    function getCurrentTargetItem() {
+      return state.sequence[state.currentIndex] || state.sequence[0];
+    }
+
+    function addFindEnergy(amount) {
+      state.findEnergy = Math.min(100, state.findEnergy + amount);
+      updateHUD();
+    }
+
+    /**
+     * Builds the exact natural Arabic or English prompt sentence (CRITICAL REQUIREMENT #2)
+     */
+    function getPromptInstructionText(target, subMode, lang) {
+      if (lang === 'ar') {
+        if (subMode === 'pic_by_letter') {
+          // EXACT REQUIRED ARABIC PHRASING: "إلتقط صورة تبدأ بحرف الجيم"
+          return `إلتقط صورة تبدأ بحرف ${target.arName}`;
+        }
+        return `إلتقط الحرف الذي تبدأ به صورة ${target.word}`;
+      } else {
+        if (subMode === 'pic_by_letter') {
+          return `Catch a picture that starts with the letter ${target.letter}`;
+        }
+        return `Catch the letter that starts the word ${target.word}`;
+      }
+    }
+
+    function updateHUD() {
+      const isAr = state.lang === 'ar';
+      const total = state.sequence.length || (isAr ? 28 : 26);
+      const stepNum = Math.min(state.currentIndex + 1, total);
+
+      ui.hudLangText.textContent = isAr ? 'العربية 28' : 'English 26';
+
+      if (state.mode === 'letter_by_pic') {
+        ui.hudModeText.textContent = isAr ? '🖼️➡️حرف' : '🖼️➡️Abc';
+      } else if (state.mode === 'pic_by_letter') {
+        ui.hudModeText.textContent = isAr ? '🔤➡️صورة' : '🔤➡️Pic';
+      } else {
+        ui.hudModeText.textContent = isAr ? '🔀 خليط' : '🔀 Mixed';
+      }
+
+      // Live Speed Buttons Labels & Active State
+      document.getElementById('live-spd-slow').textContent = isAr ? 'بطيء' : 'Slow';
+      document.getElementById('live-spd-med').textContent = isAr ? 'متوسط' : 'Med';
+      document.getElementById('live-spd-fast').textContent = isAr ? 'سريع' : 'Fast';
+      document.querySelectorAll('[data-live-speed]').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.liveSpeed === state.speed);
+      });
+
+      ui.scoreVal.textContent = state.score;
+      ui.comboVal.textContent = `x${state.combo}`;
+      ui.comboBadge.classList.toggle('hot', state.combo >= 3);
+      ui.gemsVal.textContent = state.gems;
+
+      ui.drawerProgress.textContent = `${state.completedIds.size}/${total}`;
+      ui.counterText.textContent = `${stepNum} / ${total}`;
+      ui.progressFill.style.width = `${Math.max(4, (state.completedIds.size / total) * 100)}%`;
+
+      // Smart Find ("زر إيجاد 🔍") Progress Ring & Gem Instant-Unlock Badge
+      const circumference = 245;
+      const offset = circumference - (state.findEnergy / 100) * circumference;
+      ui.findRing.style.strokeDashoffset = `${offset}`;
+      ui.findLabel.textContent = isAr ? 'إيجاد' : 'Find';
+
+      ui.findBtn.classList.remove('ready', 'affordable');
+      ui.findBadge.className = 'find-cost-badge';
+
+      if (state.findEnergy >= 100) {
+        ui.findBtn.classList.add('ready');
+        ui.findBadge.textContent = isAr ? '100% ⚡' : 'READY ⚡';
+      } else if (state.gems >= FIND_GEM_COST) {
+        ui.findBtn.classList.add('affordable');
+        ui.findBadge.classList.add('gem-cost');
+        ui.findBadge.textContent = `💎 ${FIND_GEM_COST}`;
+      } else {
+        ui.findBadge.classList.add('charging');
+        ui.findBadge.textContent = `${Math.floor(state.findEnergy)}%`;
+      }
+    }
+
+    function refreshTargetPrompt(speakNow = true) {
+      const target = getCurrentTargetItem();
+      if (!target) return;
+
+      if (state.mode === 'mixed') {
+        state.activeSubMode = Math.random() < 0.5 ? 'letter_by_pic' : 'pic_by_letter';
+      } else {
+        state.activeSubMode = state.mode;
+      }
+
+      const isAr = state.lang === 'ar';
+      ui.promptCard.classList.remove('pop');
+      void ui.promptCard.offsetWidth;
+      ui.promptCard.classList.add('pop');
+
+      const promptSentence = getPromptInstructionText(target, state.activeSubMode, state.lang);
+      ui.promptInstruction.textContent = promptSentence;
+
+      if (state.activeSubMode === 'letter_by_pic') {
+        ui.promptVisual.textContent = target.emoji;
+        ui.promptVisual.classList.remove('is-letter');
+        ui.promptChip.className = 'mode-chip';
+        ui.promptChip.textContent = isAr ? '🖼️➡️🔤 إيجاد الحرف' : '🖼️➡️🔤 Find Letter';
+      } else {
+        ui.promptVisual.textContent = target.letter;
+        ui.promptVisual.classList.add('is-letter');
+        ui.promptChip.className = 'mode-chip pic-mode';
+        ui.promptChip.textContent = isAr ? '🔤➡️🖼️ إيجاد الصورة' : '🔤➡️🖼️ Find Picture';
+      }
+
+      if (speakNow) {
+        audio.speak(promptSentence, state.lang);
+      }
+
+      // Clear previous round's educational tokens and build a fresh 5-slot randomized wave!
+      clearActiveEducationalTokens();
+      generateNextWaveQueue();
+      state.spawnCooldown = 0.25;
+      updateHUD();
+    }
+
+    function clearActiveEducationalTokens() {
+      for (let i = activeTokens.length - 1; i >= 0; i--) {
+        const t = activeTokens[i];
+        if (t.kind === 'edu') {
+          spawnBurstParticles(t.group.position, 4, false);
+          scene.remove(t.group);
+          activeTokens.splice(i, 1);
+        }
+      }
+    }
+
+    function clearAllTokens() {
+      for (let i = activeTokens.length - 1; i >= 0; i--) {
+        scene.remove(activeTokens[i].group);
+      }
+      activeTokens.length = 0;
+      clearTractorBeam();
+    }
+
+    function setGameSpeed(newSpeed) {
+      if (!SPEED_CONFIG[newSpeed]) return;
+      state.speed = newSpeed;
+
+      // Sync both Start/Settings Modal buttons & Live Top HUD bar buttons
+      document.querySelectorAll('[data-speed]').forEach(b => {
+        b.classList.toggle('selected', b.dataset.speed === newSpeed);
+      });
+      document.querySelectorAll('[data-live-speed]').forEach(b => {
+        b.classList.toggle('active', b.dataset.liveSpeed === newSpeed);
+      });
+
+      const cfg = SPEED_CONFIG[newSpeed];
+      state.spawnCooldown = Math.min(state.spawnCooldown, cfg.spawnInterval);
+
+      // Immediately update vertical velocity of all currently falling tokens on screen!
+      activeTokens.forEach(t => {
+        if (!t.bouncedOut && !t.magnetLocked) {
+          if (t.kind === 'edu') {
+            t.vy = -(cfg.fallSpeed * (t.speedFactor || 1.0));
+          } else {
+            t.vy = -(Math.min(cfg.fallSpeed, 7.2) * 0.92);
+          }
+        }
+      });
+
+      updateHUD();
+    }
+
+    function startNewStage() {
+      audio.unlock();
+      clearAllTokens();
+
+      const baseList = state.lang === 'ar' ? [...ARABIC_LETTERS] : [...ENGLISH_LETTERS];
+      state.sequence = state.order === 'shuf' ? shuffleArray(baseList) : baseList;
+      state.currentIndex = 0;
+      state.completedIds.clear();
+      state.score = 0;
+      state.combo = 1;
+      state.totalAttempts = 0;
+      state.correctCatches = 0;
+      state.findEnergy = 100;
+      state.gems = Math.max(state.gems, 4);
+
+      // CRITICAL REQUIREMENT #1: Initialize lastTargetSlot = 0 so Round 1 NEVER drops target first!
+      state.lastTargetSlot = 0;
+      state.waveQueue = [];
+
+      state.running = true;
+      state.paused = false;
+
+      document.documentElement.dir = state.lang === 'ar' ? 'rtl' : 'ltr';
+      document.documentElement.lang = state.lang;
+      updateMenuLocalization(state.lang);
+
+      ui.menuModal.classList.remove('active');
+      ui.victoryModal.classList.remove('active');
+      ui.resumeBtn.style.display = 'block';
+
+      playRobotEmotion('Wave', true);
+      refreshTargetPrompt(true);
+    }
+
+    function handleTokenCaughtInBasket(token) {
+      basketPhysics.bounceScale = 0.28;
+
+      if (token.kind === 'bonus_star' || token.kind === 'bonus_chest') {
+        const isChest = token.kind === 'bonus_chest';
+        const gemGain = isChest ? 3 : 1;
+        const energyGain = isChest ? 100 : 50;
+        state.gems += gemGain;
+        state.score += isChest ? 30 : 15;
+        addFindEnergy(energyGain);
+        audio.playRewardStar();
+        spawnBurstParticles(basketGroup.position, 28, true);
+        playRobotEmotion('Jump', true);
+
+        const msg = state.lang === 'ar'
+          ? `${isChest ? '🎁 صندوق هدايا!' : '⭐ نجمة ذهبية!'} +${energyGain}% شحن إيجاد +${gemGain}💎`
+          : `${isChest ? '🎁 Mystery Gift!' : '⭐ Golden Star!'} +${energyGain}% Find +${gemGain}💎`;
+        showToast(msg, 'reward', 1900);
+        return;
+      }
+
+      state.totalAttempts++;
+      const target = getCurrentTargetItem();
+      const matched = token.itemData && target && token.itemData.id === target.id;
+
+      if (matched) {
+        clearTractorBeam();
+        state.correctCatches++;
+        state.completedIds.add(target.id);
+
+        // Score, Streak & "زر إيجاد" Charge + Gems Reward System
+        state.score += 10 * Math.min(state.combo, 5);
+        let energyBonus = 25;
+        let gemBonus = 0;
+
+        if (state.combo >= 5) {
+          energyBonus += 25;
+          gemBonus = 2;
+        } else if (state.combo >= 3) {
+          energyBonus += 15;
+          gemBonus = 1;
+        } else if (state.completedIds.size % 4 === 0) {
+          gemBonus = 1;
+        }
+
+        state.gems += gemBonus;
+        state.combo++;
+        addFindEnergy(energyBonus);
+
+        audio.playCatchCorrect(state.combo);
+        spawnBurstParticles(basketGroup.position, 32, false);
+        playRobotEmotion(state.combo % 3 === 0 ? 'Dance' : 'ThumbsUp', true);
+
+        // Warm Natural Praise + Reinforcement (CRITICAL REQUIREMENT #2)
+        if (state.lang === 'ar') {
+          const verb = target.fem ? 'تبدأ' : 'يبدأ';
+          audio.speak(`رائع! ${target.word} ${verb} بحرف ${target.arName}`, 'ar');
+        } else {
+          audio.speak(`Great! ${target.word} starts with ${target.letter}`, 'en');
+        }
+
+        const gemTag = gemBonus > 0 ? ` <span style="color:#fde68a;">+${gemBonus}💎</span>` : '';
+        showToast(
+          `${target.letter} — ${target.cleanWord} ${target.emoji}${gemTag}`,
+          'success',
+          1700
+        );
+
+        state.currentIndex++;
+        if (state.currentIndex >= state.sequence.length) {
+          completeStageVictory();
+        } else {
+          setTimeout(() => {
+            if (!state.paused && state.running) {
+              refreshTargetPrompt(true);
+            }
+          }, 900);
+        }
+        updateHUD();
+      } else {
+        // Gentle Wrong-Item Bounce & Encouragement
+        state.combo = 1;
+        audio.playCatchWrong();
+        playRobotEmotion('No', true);
+        updateHUD();
+
+        const wrongHint = state.lang === 'ar'
+          ? `حاول مجدداً! ${getPromptInstructionText(target, state.activeSubMode, 'ar')}`
+          : `Try again! Looking for ${state.activeSubMode === 'letter_by_pic' ? target.emoji : target.letter}`;
+        showToast(wrongHint, 'warn', 1500);
+      }
+    }
+
+    function completeStageVictory() {
+      state.running = false;
+      state.paused = true;
+      clearAllTokens();
+      audio.playVictoryFanfare();
+      playRobotEmotion('Dance', false);
+      spawnBurstParticles(new THREE.Vector3(0, 0, 0), 70, false);
+
+      const total = state.sequence.length;
+      const accuracy = state.totalAttempts > 0
+        ? Math.round((state.correctCatches / state.totalAttempts) * 100)
+        : 100;
+      const stars = accuracy >= 85 ? '⭐⭐⭐' : accuracy >= 65 ? '⭐⭐' : '⭐';
+
+      document.getElementById('victory-stars').textContent = stars;
+      document.getElementById('vic-letters').textContent = `${total}/${total}`;
+      document.getElementById('vic-accuracy').textContent = `${accuracy}%`;
+      document.getElementById('vic-score').textContent = `${state.score}`;
+
+      const isAr = state.lang === 'ar';
+      document.getElementById('victory-title').textContent = isAr
+        ? 'أحسنت! أتممت المرحلة كاملة! 🎉'
+        : 'Amazing! Stage Complete! 🎉';
+      document.getElementById('victory-sub').textContent = isAr
+        ? `أكملت جميع الحروف (${total} حرفاً) ببراعة!`
+        : `You mastered all ${total} letters & shapes!`;
+      document.getElementById('vic-lbl-letters').textContent = isAr ? 'الحروف' : 'Letters';
+      document.getElementById('vic-lbl-acc').textContent = isAr ? 'الدقة' : 'Accuracy';
+      document.getElementById('vic-lbl-score').textContent = isAr ? 'النقاط ⭐' : 'Score ⭐';
+      document.getElementById('btn-play-next-stage').textContent = isAr
+        ? '⏭️ المرحلة التالية (تبديل النمط)'
+        : '⏭️ Next Stage (Switch Mode)';
+      document.getElementById('btn-play-again').textContent = isAr
+        ? '🔄 إعادة المرحلة الحالية'
+        : '🔄 Replay Current Stage';
+      document.getElementById('btn-victory-menu').textContent = isAr
+        ? '⚙️ القائمة والإعدادات'
+        : '⚙️ Menu & Settings';
+      const vicPubEl = document.getElementById('victory-publisher-text');
+      if (vicPubEl) {
+        vicPubEl.textContent = isAr
+          ? 'الناشر: Wesam Nafaa - وسام نفاع'
+          : 'Publisher: Wesam Nafaa - وسام نفاع';
+      }
+
+      setTimeout(() => {
+        ui.victoryModal.classList.add('active');
+        audio.speak(
+          isAr ? 'مبروك! لقد أتممت المرحلة كاملة ببراعة!' : 'Congratulations! You completed the stage!',
+          state.lang
+        );
+      }, 650);
+    }
+
+    /* =========================================================================
+       9. "زر إيجاد 🔍" (AUTO-FIND REWARD SUPERPOWER + INSTANT SPAWN SAFEGUARD)
+       ========================================================================= */
+    function activateSmartFind() {
+      if (!state.running || state.paused || state.findBeamActive) return;
+
+      // Unlock with 100% Energy Charge OR Spend 2 Gems (💎) if partially charged
+      if (state.findEnergy >= 100) {
+        state.findEnergy = 0;
+      } else if (state.gems >= FIND_GEM_COST) {
+        state.gems -= FIND_GEM_COST;
+        state.findEnergy = 0;
+      } else {
+        audio.playCatchWrong();
+        showToast(
+          state.lang === 'ar'
+            ? `اشحن زر إيجاد إلى 100% أو اجمع جوهرتين (💎 ${FIND_GEM_COST})!`
+            : `Charge Find to 100% or collect ${FIND_GEM_COST} Gems (💎)!`,
+          'warn',
+          1650
+        );
+        return;
+      }
+
+      updateHUD();
+      audio.playFindSuperpower();
+      spawnRadarShockwave(basketGroup.position);
+      playRobotEmotion('Jump', true);
+
+      const targetData = getCurrentTargetItem();
+      let targetToken = activeTokens.find(
+        t => t.kind === 'edu' && t.itemData.id === targetData.id && !t.bouncedOut
+      );
+
+      // EDGE-CASE SAFEGUARD (CRITICAL REQUIREMENT #1):
+      // If the target's random slot in the 5-slot WaveSpawnQueue hasn't dropped onto the screen yet,
+      // immediately spawn it at the top of the playfield and convert its queued wave slot into a distractor!
+      if (!targetToken) {
+        const neededContent = state.activeSubMode === 'letter_by_pic' ? 'letter' : 'picture';
+        const spawnX = (Math.random() - 0.5) * worldBounds.spawnHalfW * 1.1;
+        targetToken = createFallingToken(targetData, neededContent, true, spawnX);
+        targetToken.group.position.set(spawnX, worldBounds.spawnY * 0.68, 0.5);
+        spawnBurstParticles(targetToken.group.position, 18, true);
+
+        // Replace pending target slot inside waveQueue with a distractor so no duplicate spawns right after
+        const alphabet = state.lang === 'ar' ? ARABIC_LETTERS : ENGLISH_LETTERS;
+        const distractors = alphabet.filter(item => item.id !== targetData.id);
+        state.waveQueue.forEach(entry => {
+          if (entry.isTarget) {
+            entry.isTarget = false;
+            entry.itemData = distractors[Math.floor(Math.random() * distractors.length)];
+          }
+        });
+      }
+
+      // Gently push non-target distractors outward while keeping their relative 1x/2x baseScale
+      activeTokens.forEach(t => {
+        if (t !== targetToken && t.kind === 'edu') {
+          t.vx = (t.group.position.x >= 0 ? 1 : -1) * 2.4;
+          t.group.scale.setScalar(t.baseScale * 0.8);
+        }
+      });
+
+      targetToken.grabbed = false;
+      targetToken.magnetLocked = true;
+      state.findBeamActive = true;
+    }
+
+    /* =========================================================================
+       10. DUAL CONTROLS: SLIDE BASKET OR GRAB & DRAG 3D SHAPES IN MID-AIR
+       ========================================================================= */
+    const raycaster = new THREE.Raycaster();
+    const pointerNDC = new THREE.Vector2();
+    const dragPlane = new THREE.Plane(new THREE.Vector3(0, 0, 1), 0);
+    const planeHit = new THREE.Vector3();
+
+    const inputState = {
+      pointerId: null,
+      mode: null,
+      grabbedToken: null,
+      keysLeft: false,
+      keysRight: false
+    };
+
+    function screenToWorldOnZ0(clientX, clientY) {
+      pointerNDC.x = (clientX / window.innerWidth) * 2 - 1;
+      pointerNDC.y = -(clientY / window.innerHeight) * 2 + 1;
+      raycaster.setFromCamera(pointerNDC, camera);
+      raycaster.ray.intersectPlane(dragPlane, planeHit);
+      return planeHit;
+    }
+
+    canvas.addEventListener('pointerdown', (e) => {
+      audio.unlock();
+      document.getElementById('audio-popover').classList.remove('open');
+
+      if (!state.running || state.paused || inputState.pointerId !== null) return;
+
+      const worldPt = screenToWorldOnZ0(e.clientX, e.clientY);
+
+      const hitMeshes = activeTokens
+        .filter(t => !t.magnetLocked && !t.bouncedOut)
+        .map(t => t.hitSphere);
+
+      const hits = raycaster.intersectObjects(hitMeshes, false);
+      if (hits.length > 0) {
+        const picked = hits[0].object.userData.token;
+        if (picked) {
+          inputState.pointerId = e.pointerId;
+          inputState.mode = 'token';
+          inputState.grabbedToken = picked;
+          picked.grabbed = true;
+          picked.group.scale.setScalar(picked.baseScale * 1.16);
+          picked.group.position.z = 1.2;
+          audio.playGrab();
+          canvas.setPointerCapture(e.pointerId);
+          return;
+        }
+      }
+
+      inputState.pointerId = e.pointerId;
+      inputState.mode = 'basket';
+      basketPhysics.targetX = THREE.MathUtils.clamp(
+        worldPt.x,
+        -worldBounds.basketHalfW,
+        worldBounds.basketHalfW
+      );
+      canvas.setPointerCapture(e.pointerId);
+    });
+
+    canvas.addEventListener('pointermove', (e) => {
+      if (e.pointerId !== inputState.pointerId) return;
+      const worldPt = screenToWorldOnZ0(e.clientX, e.clientY);
+
+      if (inputState.mode === 'token' && inputState.grabbedToken) {
+        const t = inputState.grabbedToken;
+        if (t.magnetLocked) return;
+
+        t.group.position.x = THREE.MathUtils.clamp(
+          worldPt.x,
+          -worldBounds.basketHalfW * 1.1,
+          worldBounds.basketHalfW * 1.1
+        );
+        t.group.position.y = THREE.MathUtils.clamp(
+          worldPt.y,
+          worldBounds.basketY - 0.5,
+          worldBounds.spawnY + 0.5
+        );
+
+        if (Math.random() < 0.35) spawnBurstParticles(t.group.position, 1, true);
+
+        const hoverRadius = isLargeScreen() ? 2.8 : 1.85;
+        const distToBasket = Math.hypot(
+          t.group.position.x - basketGroup.position.x,
+          t.group.position.y - (basketGroup.position.y + 0.48)
+        );
+        basketPortalRing.material.opacity = distToBasket < hoverRadius ? 0.88 : 0.38;
+      } else if (inputState.mode === 'basket') {
+        basketPhysics.targetX = THREE.MathUtils.clamp(
+          worldPt.x,
+          -worldBounds.basketHalfW,
+          worldBounds.basketHalfW
+        );
+      }
+    });
+
+    function releasePointer(e) {
+      if (e.pointerId !== inputState.pointerId) return;
+      if (inputState.mode === 'token' && inputState.grabbedToken) {
+        const t = inputState.grabbedToken;
+        t.grabbed = false;
+        t.group.scale.setScalar(t.baseScale);
+        t.group.position.z = 0;
+        basketPortalRing.material.opacity = 0.38;
+
+        const dropCatchRadius = isLargeScreen() ? 2.85 : 1.95;
+        const distToBasket = Math.hypot(
+          t.group.position.x - basketGroup.position.x,
+          t.group.position.y - (basketGroup.position.y + 0.48)
+        );
+        if (distToBasket < dropCatchRadius) {
+          t.group.position.set(basketGroup.position.x, basketGroup.position.y + 0.48, 0);
+        }
+      }
+      inputState.pointerId = null;
+      inputState.mode = null;
+      inputState.grabbedToken = null;
+    }
+
+    canvas.addEventListener('pointerup', releasePointer);
+    canvas.addEventListener('pointercancel', releasePointer);
+
+    window.addEventListener('keydown', (e) => {
+      if (e.code === 'ArrowLeft' || e.code === 'KeyA') inputState.keysLeft = true;
+      if (e.code === 'ArrowRight' || e.code === 'KeyD') inputState.keysRight = true;
+      if (e.code === 'Space' && state.running && !state.paused) {
+        e.preventDefault();
+        activateSmartFind();
+      }
+    });
+
+    window.addEventListener('keyup', (e) => {
+      if (e.code === 'ArrowLeft' || e.code === 'KeyA') inputState.keysLeft = false;
+      if (e.code === 'ArrowRight' || e.code === 'KeyD') inputState.keysRight = false;
+    });
+
+    /* =========================================================================
+       11. RESPONSIVE FRUSTUM BOUNDS & LIVE 2X RESIZE UPDATER (REQUIREMENT #3)
+       ========================================================================= */
+    function updateResponsiveWorldLayout() {
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      renderer.setSize(w, h);
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+
+      const vFovRad = THREE.MathUtils.degToRad(camera.fov);
+      const dist = camera.position.z;
+      worldBounds.height = 2 * Math.tan(vFovRad / 2) * dist;
+      worldBounds.width = worldBounds.height * camera.aspect;
+
+      const tokenScale = getFallingTokenScale();
+      const tokenRadiusMargin = 0.92 * tokenScale + 0.32;
+
+      // Safe horizontal spawn margins so 2x shapes on >=768px never clip camera edges
+      const maxFrustumHalfW = Math.max(1.8, worldBounds.width * 0.5 - tokenRadiusMargin);
+      worldBounds.spawnHalfW = Math.min(maxFrustumHalfW, isLargeScreen() ? 8.2 : 4.2);
+      worldBounds.basketHalfW = Math.min(Math.max(worldBounds.spawnHalfW, 2.2), isLargeScreen() ? 8.5 : 4.4);
+
+      worldBounds.basketY = -worldBounds.height * 0.33;
+      worldBounds.spawnY = worldBounds.height * 0.30;
+
+      basketGroup.position.y = worldBounds.basketY;
+      basketPhysics.targetX = THREE.MathUtils.clamp(
+        basketPhysics.targetX,
+        -worldBounds.basketHalfW,
+        worldBounds.basketHalfW
+      );
+
+      railMesh.position.set(0, worldBounds.basketY - 0.62, -0.2);
+      railMesh.scale.x = (worldBounds.basketHalfW * 2.15) / 10;
+
+      // Keep 3D islands & GLB companions at unchanged scenic proportions
+      buddyIsland.position.set(-worldBounds.width * 0.35, worldBounds.basketY + 1.15, -2.8);
+      buddyIsland.scale.setScalar(camera.aspect < 0.7 ? 0.76 : 0.95);
+
+      duckCloud.position.set(worldBounds.width * 0.34, worldBounds.spawnY * 0.45, -3.4);
+      duckCloud.scale.setScalar(camera.aspect < 0.7 ? 0.78 : 0.95);
+
+      // Update active falling items live on window.resize!
+      activeTokens.forEach(t => {
+        t.baseScale = tokenScale;
+        t.group.scale.setScalar(t.grabbed ? tokenScale * 1.16 : tokenScale);
+        if (!t.bouncedOut) {
+          t.group.position.x = THREE.MathUtils.clamp(
+            t.group.position.x,
+            -worldBounds.spawnHalfW,
+            worldBounds.spawnHalfW
+          );
+        }
+      });
+    }
+
+    window.addEventListener('resize', updateResponsiveWorldLayout);
+    updateResponsiveWorldLayout();
+
+    /* =========================================================================
+       12. UI LOCALIZATION & INTERACTIVE CONTROLS BINDING
+       ========================================================================= */
+    function updateMenuLocalization(lang) {
+      const isAr = lang === 'ar';
+      document.documentElement.dir = isAr ? 'rtl' : 'ltr';
+      document.getElementById('menu-title').textContent = isAr
+        ? 'سلّة الحروف والأشكال الذكية'
+        : 'Smart Letters & Shapes Basket';
+      document.getElementById('menu-subtitle').textContent = isAr
+        ? 'التقط الحروف والصور ثلاثية الأبعاد وضعها في السلة!'
+        : 'Catch 3D letters, shapes & pictures into the smart basket!';
+      document.getElementById('lbl-select-lang').textContent = isAr
+        ? 'اختر لغة المرحلة الكاملة:'
+        : 'Select Full Stage Language:';
+      document.getElementById('lbl-select-mode').textContent = isAr
+        ? 'نمط اللعب التعليمي:'
+        : 'Educational Game Mode:';
+      document.getElementById('mode1-title').textContent = isAr
+        ? 'إيجاد حرف عن طريق الصور'
+        : 'Find Letter by Picture';
+      document.getElementById('mode1-desc').textContent = isAr
+        ? 'شاهد الصورة واسمع اسمها ثم التقط حرفها الأول'
+        : 'See & hear the picture, then catch its starting letter';
+      document.getElementById('mode2-title').textContent = isAr
+        ? 'إيجاد صورة عن طريق حرف'
+        : 'Find Picture by Letter';
+      document.getElementById('mode2-desc').textContent = isAr
+        ? 'إلتقط صورة تبدأ بالحرف المعروض والمنطوق'
+        : 'Catch a picture that starts with the shown letter';
+      document.getElementById('mode3-title').textContent = isAr
+        ? 'خليط ذكي بين الإثنين'
+        : 'Smart Mixed Mode';
+      document.getElementById('mode3-desc').textContent = isAr
+        ? 'تبديل ممتع ومتجدد بين إيجاد الحرف وإيجاد الصورة'
+        : 'Dynamic mix alternating between letters & pictures';
+      document.getElementById('lbl-order').textContent = isAr ? 'ترتيب الحروف:' : 'Order:';
+      document.getElementById('btn-order-seq').textContent = isAr ? 'ترتيبي' : 'A-Z';
+      document.getElementById('btn-order-shuf').textContent = isAr ? 'عشوائي' : 'Shuffle';
+      document.getElementById('lbl-speed').textContent = isAr ? 'السرعة:' : 'Speed:';
+      document.getElementById('btn-spd-slow').textContent = isAr ? 'بطيء' : 'Slow';
+      document.getElementById('btn-spd-med').textContent = isAr ? 'متوسط' : 'Medium';
+      document.getElementById('btn-spd-fast').textContent = isAr ? 'سريع' : 'Fast';
+      document.getElementById('btn-start-text').textContent = isAr ? 'ابدأ اللعب الآن' : 'Start Playing Now';
+      ui.resumeBtn.textContent = isAr ? 'متابعة المرحلة الحالية ▶️' : 'Resume Current Stage ▶️';
+      ui.touchHint.textContent = isAr
+        ? 'اسحب السلة أو التقط الشكل وضعه فيها!'
+        : 'Slide basket or drag shapes into it!';
+      document.getElementById('lbl-sfx').textContent = isAr ? '🎵 مؤثرات صوتية' : '🎵 Sound Effects';
+      document.getElementById('lbl-music').textContent = isAr ? '🎶 موسيقى هادئة' : '🎶 Ambient Music';
+      document.getElementById('lbl-voice').textContent = isAr ? '🗣️ النطق الصوتي' : '🗣️ Voice Speech';
+      const pubLabel = isAr
+        ? 'الناشر: Wesam Nafaa - وسام نفاع'
+        : 'Publisher: Wesam Nafaa - وسام نفاع';
+      const menuPubEl = document.getElementById('menu-publisher-text');
+      if (menuPubEl) menuPubEl.textContent = pubLabel;
+      const vicPubEl = document.getElementById('victory-publisher-text');
+      if (vicPubEl) vicPubEl.textContent = pubLabel;
+      updateHUD();
+    }
+
+    // Menu Choice Buttons
+    document.querySelectorAll('[data-lang]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        audio.playClick();
+        document.querySelectorAll('[data-lang]').forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        state.lang = btn.dataset.lang;
+        updateMenuLocalization(state.lang);
+      });
+    });
+
+    document.querySelectorAll('[data-mode]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        audio.playClick();
+        document.querySelectorAll('[data-mode]').forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        state.mode = btn.dataset.mode;
+        updateHUD();
+      });
+    });
+
+    document.querySelectorAll('[data-order]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        audio.playClick();
+        document.querySelectorAll('[data-order]').forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        state.order = btn.dataset.order;
+      });
+    });
+
+    document.querySelectorAll('[data-speed]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        audio.playClick();
+        setGameSpeed(btn.dataset.speed);
+      });
+    });
+
+    // Live Top HUD Speed Buttons
+    document.querySelectorAll('[data-live-speed]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        audio.playClick();
+        setGameSpeed(btn.dataset.liveSpeed);
+      });
+    });
+
+    // Live Top HUD Language Toggle
+    document.getElementById('hud-lang-toggle').addEventListener('click', () => {
+      audio.playClick();
+      state.lang = state.lang === 'ar' ? 'en' : 'ar';
+      document.querySelectorAll('[data-lang]').forEach(b => {
+        b.classList.toggle('selected', b.dataset.lang === state.lang);
+      });
+      if (state.running) {
+        startNewStage();
+      } else {
+        updateMenuLocalization(state.lang);
+      }
+    });
+
+    // Live Top HUD Game Mode Toggle
+    document.getElementById('hud-mode-toggle').addEventListener('click', () => {
+      audio.playClick();
+      const modes = ['letter_by_pic', 'pic_by_letter', 'mixed'];
+      const nextMode = modes[(modes.indexOf(state.mode) + 1) % modes.length];
+      state.mode = nextMode;
+      document.querySelectorAll('[data-mode]').forEach(b => {
+        b.classList.toggle('selected', b.dataset.mode === nextMode);
+      });
+      if (state.running && !state.paused) {
+        refreshTargetPrompt(true);
+      } else {
+        updateHUD();
+      }
+    });
+
+    document.getElementById('btn-start-game').addEventListener('click', () => {
+      audio.playClick();
+      startNewStage();
+    });
+
+    ui.resumeBtn.addEventListener('click', () => {
+      audio.playClick();
+      ui.menuModal.classList.remove('active');
+      state.paused = false;
+    });
+
+    document.getElementById('btn-open-settings').addEventListener('click', () => {
+      audio.playClick();
+      state.paused = true;
+      ui.menuModal.classList.add('active');
+    });
+
+    // Tap Floating Target Card to Replay Exact Prompt Voice
+    ui.promptCard.addEventListener('click', () => {
+      audio.unlock();
+      const target = getCurrentTargetItem();
+      if (!target) return;
+      ui.promptCard.classList.remove('pop');
+      void ui.promptCard.offsetWidth;
+      ui.promptCard.classList.add('pop');
+      audio.speak(getPromptInstructionText(target, state.activeSubMode, state.lang), state.lang);
+    });
+
+    // Smart Find Button
+    ui.findBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      audio.unlock();
+      activateSmartFind();
+    });
+
+    // Alphabet Progress Drawer
+    function openLettersMapDrawer() {
+      audio.playClick();
+      state.paused = true;
+      const list = state.lang === 'ar' ? ARABIC_LETTERS : ENGLISH_LETTERS;
+      const currentTarget = getCurrentTargetItem();
+      const isAr = state.lang === 'ar';
+
+      document.getElementById('map-modal-title').textContent = isAr
+        ? 'خريطة الحروف العربية (28 حرفاً)'
+        : 'English Alphabet Progress (26 Letters)';
+      document.getElementById('map-modal-sub').textContent = isAr
+        ? 'اضغط على أي حرف لسماع نطقه وكلمته 🔊'
+        : 'Tap any letter to hear its sound & word 🔊';
+      document.getElementById('btn-close-map').textContent = isAr
+        ? 'إغلاق والعودة للعب ✕'
+        : 'Close & Resume ✕';
+
+      ui.lettersGrid.innerHTML = '';
+      list.forEach(item => {
+        const isDone = state.completedIds.has(item.id);
+        const isCurr = currentTarget && currentTarget.id === item.id;
+        const cell = document.createElement('div');
+        cell.className = `letter-cell ${isDone ? 'done' : ''} ${isCurr ? 'current' : ''}`;
+        cell.innerHTML = `
+          <span>${item.letter}</span>
+          <span class="mini-emoji">${isDone ? item.emoji : '•'}</span>
+        `;
+        cell.addEventListener('click', () => {
+          audio.playClick();
+          if (isAr) {
+            const verb = item.fem ? 'تبدأ' : 'يبدأ';
+            audio.speak(`حرف ${item.arName}، ${item.word} ${verb} بحرف ${item.arName}`, 'ar');
+          } else {
+            audio.speak(`${item.letter} for ${item.word}`, 'en');
+          }
+        });
+        ui.lettersGrid.appendChild(cell);
+      });
+
+      ui.mapModal.classList.add('active');
+    }
+
+    document.getElementById('btn-letters-map').addEventListener('click', openLettersMapDrawer);
+    document.getElementById('btn-close-map').addEventListener('click', () => {
+      audio.playClick();
+      ui.mapModal.classList.remove('active');
+      if (state.running) state.paused = false;
+    });
+
+    // Audio Quick Popover Toggles
+    document.getElementById('btn-audio-menu').addEventListener('click', (e) => {
+      e.stopPropagation();
+      audio.playClick();
+      document.getElementById('audio-popover').classList.toggle('open');
+    });
+
+    document.getElementById('toggle-sfx').addEventListener('click', () => {
+      audio.sfxEnabled = !audio.sfxEnabled;
+      document.getElementById('pill-sfx').classList.toggle('on', audio.sfxEnabled);
+      if (audio.sfxEnabled) audio.playClick();
+    });
+
+    document.getElementById('toggle-music').addEventListener('click', () => {
+      audio.musicEnabled = !audio.musicEnabled;
+      document.getElementById('pill-music').classList.toggle('on', audio.musicEnabled);
+      audio.playClick();
+      if (audio.musicEnabled) audio.startBackgroundMusic();
+    });
+
+    document.getElementById('toggle-voice').addEventListener('click', () => {
+      audio.voiceEnabled = !audio.voiceEnabled;
+      document.getElementById('pill-voice').classList.toggle('on', audio.voiceEnabled);
+      audio.playClick();
+    });
+
+    // Victory Modal Buttons
+    document.getElementById('btn-play-next-stage').addEventListener('click', () => {
+      audio.playClick();
+      const modes = ['letter_by_pic', 'pic_by_letter', 'mixed'];
+      state.mode = modes[(modes.indexOf(state.mode) + 1) % modes.length];
+      document.querySelectorAll('[data-mode]').forEach(b => {
+        b.classList.toggle('selected', b.dataset.mode === state.mode);
+      });
+      startNewStage();
+    });
+
+    document.getElementById('btn-play-again').addEventListener('click', () => {
+      audio.playClick();
+      startNewStage();
+    });
+
+    document.getElementById('btn-victory-menu').addEventListener('click', () => {
+      audio.playClick();
+      ui.victoryModal.classList.remove('active');
+      ui.resumeBtn.style.display = 'none';
+      ui.menuModal.classList.add('active');
+    });
+
+    /* =========================================================================
+       13. 5-SLOT WAVE SPAWNER & 60FPS MAIN GAME LOOP
+       ========================================================================= */
+    function spawnNextEducationalToken() {
+      const target = getCurrentTargetItem();
+      if (!target) return;
+
+      // Refill 5-slot randomized wave queue whenever finished
+      if (state.waveQueue.length === 0) {
+        generateNextWaveQueue();
+      }
+
+      const nextSlotItem = state.waveQueue.shift();
+      if (!nextSlotItem) return;
+
+      const contentType = state.activeSubMode === 'letter_by_pic' ? 'letter' : 'picture';
+      createFallingToken(
+        nextSlotItem.itemData,
+        contentType,
+        nextSlotItem.itemData.id === target.id
+      );
+    }
+
+    const clock = new THREE.Clock();
+
+    function animate() {
+      requestAnimationFrame(animate);
+
+      const rawDt = clock.getDelta();
+      const dt = Math.min(rawDt, 0.05);
+      const elapsed = clock.elapsedTime;
+
+      // 1. Animate 3D Scenic World & GLB Companions
+      mixers.forEach(m => m.update(dt));
+
+      buddyIsland.position.y = worldBounds.basketY + 1.15 + Math.sin(elapsed * 1.6) * 0.16;
+      islandRing.rotation.z = elapsed * 0.8;
+      if (fallbackBuddy.parent) {
+        fallbackBuddy.rotation.y = elapsed * 1.5;
+        fallbackBuddy.position.y = 0.75 + Math.sin(elapsed * 2.5) * 0.1;
+      }
+
+      duckCloud.position.y = worldBounds.spawnY * 0.45 + Math.cos(elapsed * 1.3) * 0.18;
+      starField.rotation.z = elapsed * 0.014;
+
+      flyingBirds.forEach(b => {
+        b.mesh.position.x += b.dir * b.speed * dt;
+        b.mesh.position.y = b.baseY + Math.sin(elapsed * 2.2 + b.phase) * 0.35;
+        const limit = Math.max(worldBounds.width * 0.75, 11);
+        if (b.dir > 0 && b.mesh.position.x > limit) b.mesh.position.x = -limit;
+        if (b.dir < 0 && b.mesh.position.x < -limit) b.mesh.position.x = limit;
+      });
+
+      // 2. Keyboard Basket Control
+      const kbSpeed = isLargeScreen() ? 14.0 : 9.8;
+      if (inputState.keysLeft) {
+        basketPhysics.targetX = Math.max(-worldBounds.basketHalfW, basketPhysics.targetX - kbSpeed * dt);
+      }
+      if (inputState.keysRight) {
+        basketPhysics.targetX = Math.min(worldBounds.basketHalfW, basketPhysics.targetX + kbSpeed * dt);
+      }
+
+      // 3. Smooth 3D Basket Physics
+      const prevX = basketGroup.position.x;
+      basketGroup.position.x = THREE.MathUtils.lerp(basketGroup.position.x, basketPhysics.targetX, Math.min(1, dt * 16));
+      basketPhysics.vx = (basketGroup.position.x - prevX) / Math.max(dt, 0.001);
+      basketGroup.rotation.z = THREE.MathUtils.clamp(-basketPhysics.vx * 0.032, -0.26, 0.26);
+
+      if (basketPhysics.bounceScale > 0.005) {
+        basketPhysics.bounceScale = THREE.MathUtils.lerp(basketPhysics.bounceScale, 0, dt * 9);
+        const s = basketPhysics.bounceScale;
+        basketGroup.scale.set(1 + s, 1 - s * 0.72, 1 + s);
+      } else {
+        basketGroup.scale.set(1, 1, 1);
+      }
+
+      // 4. Active Spawning & Falling Token Physics
+      if (state.running && !state.paused) {
+        const spdCfg = SPEED_CONFIG[state.speed] || SPEED_CONFIG.medium;
+
+        state.spawnCooldown -= dt;
+        if (state.spawnCooldown <= 0 && activeTokens.length < spdCfg.maxTokens) {
+          spawnNextEducationalToken();
+          state.spawnCooldown = spdCfg.spawnInterval;
+        }
+
+        // Bonus Star / Mystery Gift Box Spawner
+        state.bonusCooldown -= dt;
+        if (state.bonusCooldown <= 0) {
+          createRewardToken(Math.random() < 0.28 ? 'chest' : 'star');
+          state.bonusCooldown = 9.0 + Math.random() * 5.0;
+        }
+
+        const basketMouthPos = new THREE.Vector3(
+          basketGroup.position.x,
+          basketGroup.position.y + 0.48,
+          0.2
+        );
+
+        // Proportional Catch Collision Window (Scales smoothly for 2.0x shapes on >=768px & high-speed fast mode!)
+        const scaleFactor = getFallingTokenScale();
+        const catchHalfX = isLargeScreen() ? 1.88 : 1.18;
+        const catchTopY = 1.15 * scaleFactor;
+        const catchBottomY = -0.95 * scaleFactor;
+
+        for (let i = activeTokens.length - 1; i >= 0; i--) {
+          const t = activeTokens[i];
+
+          t.group.rotation.y = Math.sin(elapsed * 2.2 + t.phase) * 0.28;
+          t.group.rotation.z = Math.cos(elapsed * 1.8 + t.phase) * 0.1;
+
+          if (t.magnetLocked) {
+            t.group.position.lerp(basketMouthPos, Math.min(1, dt * 7.2));
+            createOrUpdateTractorBeam(basketMouthPos, t.group.position, t.baseScale);
+            if (Math.random() < 0.5) spawnBurstParticles(t.group.position, 1, true);
+
+            if (t.group.position.distanceTo(basketMouthPos) < 0.65 * t.baseScale) {
+              scene.remove(t.group);
+              activeTokens.splice(i, 1);
+              handleTokenCaughtInBasket(t);
+              continue;
+            }
+          } else if (t.bouncedOut) {
+            t.vy -= 11.0 * dt;
+            t.group.position.x += t.vx * dt;
+            t.group.position.y += t.vy * dt;
+            t.group.rotation.z += 5.5 * dt;
+          } else if (!t.grabbed) {
+            const prevY = t.group.position.y;
+            t.group.position.x += t.vx * dt;
+            t.vx *= 0.95;
+            t.group.position.y += t.vy * dt;
+
+            // Swept-Y & Proportional X Basket Collision Check (Zero tunneling even at 10.6 fast velocity!)
+            const dx = basketMouthPos.x - t.group.position.x;
+            const relYNow = t.group.position.y - basketMouthPos.y;
+            const relYPrev = prevY - basketMouthPos.y;
+            const crossedMouthVertically =
+              (relYNow <= catchTopY && relYNow >= catchBottomY) ||
+              (relYPrev > catchTopY && relYNow < catchBottomY);
+
+            if (Math.abs(dx) < catchHalfX && crossedMouthVertically) {
+              if (t.kind === 'edu' && !t.isTarget) {
+                t.bouncedOut = true;
+                t.vy = 4.5;
+                t.vx = (dx >= 0 ? -1 : 1) * 3.6;
+                handleTokenCaughtInBasket(t);
+                continue;
+              } else {
+                scene.remove(t.group);
+                activeTokens.splice(i, 1);
+                handleTokenCaughtInBasket(t);
+                continue;
+              }
+            }
+          }
+
+          if (t.group.position.y < worldBounds.basketY - 2.6 * t.baseScale) {
+            scene.remove(t.group);
+            activeTokens.splice(i, 1);
+          }
+        }
+      }
+
+      // 5. Update 3D Confetti & Radar Shockwaves
+      for (let i = particles.length - 1; i >= 0; i--) {
+        const p = particles[i];
+        p.life -= dt * 1.45;
+        if (p.life <= 0) {
+          scene.remove(p.mesh);
+          p.mesh.material.dispose();
+          particles.splice(i, 1);
+          continue;
+        }
+        p.vy -= 7.5 * dt;
+        p.mesh.position.x += p.vx * dt;
+        p.mesh.position.y += p.vy * dt;
+        p.mesh.position.z += p.vz * dt;
+        p.mesh.rotation.x += 5 * dt;
+        p.mesh.rotation.y += 4 * dt;
+        p.mesh.material.opacity = p.life;
+        p.mesh.scale.setScalar(p.life);
+      }
+
+      for (let i = shockwaves.length - 1; i >= 0; i--) {
+        const sw = shockwaves[i];
+        sw.scale += dt * 14;
+        sw.opacity -= dt * 1.4;
+        if (sw.opacity <= 0) {
+          sw.mesh.geometry.dispose();
+          sw.mesh.material.dispose();
+          scene.remove(sw.mesh);
+          shockwaves.splice(i, 1);
+          continue;
+        }
+        sw.mesh.scale.setScalar(sw.scale);
+        sw.mesh.material.opacity = sw.opacity;
+      }
+
+      renderer.render(scene, camera);
+    }
+
+    /* =========================================================================
+       14. HIGH-RES MOBILE TOUCH ICONS (180x180 & 512x512) + PWA MANIFEST BOOT
+       ========================================================================= */
+    function renderSmartBasketIconPNG(size) {
+      const c = document.createElement('canvas');
+      c.width = size;
+      c.height = size;
+      const ctx = c.getContext('2d');
+      const s = size / 128;
+
+      ctx.save();
+      ctx.scale(s, s);
+
+      // Rounded Cosmic Background
+      const bgGrad = ctx.createLinearGradient(0, 0, 128, 128);
+      bgGrad.addColorStop(0, '#0f172a');
+      bgGrad.addColorStop(0.55, '#1e3a8a');
+      bgGrad.addColorStop(1, '#0e7490');
+
+      ctx.beginPath();
+      ctx.roundRect(0, 0, 128, 128, 28);
+      ctx.fillStyle = bgGrad;
+      ctx.fill();
+
+      // Inner Glowing Cyan Frame
+      ctx.lineWidth = 3;
+      ctx.strokeStyle = 'rgba(34, 211, 238, 0.6)';
+      ctx.beginPath();
+      ctx.roundRect(4, 4, 120, 120, 24);
+      ctx.stroke();
+
+      // Soft Aura Glow
+      const aura = ctx.createRadialGradient(64, 68, 6, 64, 68, 48);
+      aura.addColorStop(0, 'rgba(34, 211, 238, 0.34)');
+      aura.addColorStop(1, 'rgba(34, 211, 238, 0)');
+      ctx.fillStyle = aura;
+      ctx.beginPath();
+      ctx.arc(64, 68, 48, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Top Golden Star
+      ctx.fillStyle = '#fbbf24';
+      ctx.strokeStyle = '#fef08a';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      const starPts = [
+        [64, 10], [69, 22], [82, 23], [72, 31], [75, 44],
+        [64, 37], [53, 44], [56, 31], [46, 23], [59, 22]
+      ];
+      starPts.forEach(([px, py], idx) => {
+        if (idx === 0) ctx.moveTo(px, py);
+        else ctx.lineTo(px, py);
+      });
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+
+      // Center Geometric Diamond Shape
+      ctx.fillStyle = '#a78bfa';
+      ctx.strokeStyle = '#ede9fe';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(64, 47);
+      ctx.lineTo(72, 55);
+      ctx.lineTo(64, 63);
+      ctx.lineTo(56, 55);
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+
+      // Left Emerald Rounded Cube with "A"
+      ctx.save();
+      ctx.translate(31, 44);
+      ctx.rotate(-0.2);
+      ctx.fillStyle = '#10b981';
+      ctx.strokeStyle = '#a7f3d0';
+      ctx.lineWidth = 2.5;
+      ctx.beginPath();
+      ctx.roundRect(-16, -16, 32, 32, 9);
+      ctx.fill();
+      ctx.stroke();
+      ctx.fillStyle = '#ffffff';
+      ctx.font = '900 21px "Fredoka", Arial, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('A', 0, 1);
+      ctx.restore();
+
+      // Right Rose Circle Badge with Arabic "أ"
+      ctx.fillStyle = '#f43f5e';
+      ctx.strokeStyle = '#fecdd3';
+      ctx.lineWidth = 2.5;
+      ctx.beginPath();
+      ctx.arc(97, 44, 17, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.fillStyle = '#ffffff';
+      ctx.font = '900 22px "Cairo", Tahoma, Arial, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('أ', 97, 45);
+
+      // Basket Handle Arc
+      ctx.strokeStyle = '#fde68a';
+      ctx.lineWidth = 5;
+      ctx.lineCap = 'round';
+      ctx.beginPath();
+      ctx.arc(64, 74, 27, Math.PI, 0, false);
+      ctx.stroke();
+
+      // Woven Smart Basket Body
+      const bskGrad = ctx.createLinearGradient(0, 74, 0, 114);
+      bskGrad.addColorStop(0, '#fde047');
+      bskGrad.addColorStop(0.45, '#f59e0b');
+      bskGrad.addColorStop(1, '#92400e');
+      ctx.fillStyle = bskGrad;
+      ctx.strokeStyle = '#fef08a';
+      ctx.lineWidth = 2.5;
+      ctx.beginPath();
+      ctx.moveTo(24, 74);
+      ctx.lineTo(104, 74);
+      ctx.lineTo(92, 110);
+      ctx.quadraticCurveTo(64, 116, 36, 110);
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+
+      // Woven Basket Stripes
+      ctx.strokeStyle = 'rgba(254, 243, 199, 0.52)';
+      ctx.lineWidth = 2.4;
+      ctx.beginPath();
+      ctx.moveTo(31, 86); ctx.lineTo(97, 86);
+      ctx.moveTo(35, 98); ctx.lineTo(93, 98);
+      ctx.stroke();
+
+      // Glowing Basket Top Rim
+      ctx.fillStyle = '#fbbf24';
+      ctx.strokeStyle = '#22d3ee';
+      ctx.lineWidth = 2.5;
+      ctx.beginPath();
+      ctx.roundRect(20, 68, 88, 10, 5);
+      ctx.fill();
+      ctx.stroke();
+
+      ctx.restore();
+      return c.toDataURL('image/png');
+    }
+
+    function initSiteIconsAndManifest() {
+      try {
+        const icon180 = renderSmartBasketIconPNG(180);
+        const icon512 = renderSmartBasketIconPNG(512);
+
+        const appleTouch = document.getElementById('apple-touch-icon');
+        if (appleTouch) appleTouch.href = icon180;
+
+        const ogImg = document.getElementById('og-image-meta');
+        if (ogImg) ogImg.content = icon512;
+        const twImg = document.getElementById('twitter-image-meta');
+        if (twImg) twImg.content = icon512;
+
+        const manifestObj = {
+          name: 'سلّة الحروف والأشكال الذكية | Smart Letters & Shapes Basket',
+          short_name: 'سلّة الحروف | Letters Basket',
+          description: 'لعبة تعليمية تفاعلية ثلاثية الأبعاد لتعلّم الحروف العربية (28) والإنجليزية (26) والأشكال والصور مع النطق الصوتي | Interactive 3D Educational Game. Published by Wesam Nafaa - وسام نفاع.',
+          author: 'Wesam Nafaa - وسام نفاع',
+          publisher: 'Wesam Nafaa - وسام نفاع',
+          lang: 'ar',
+          dir: 'rtl',
+          display: 'fullscreen',
+          orientation: 'any',
+          background_color: '#0b132b',
+          theme_color: '#0f172a',
+          categories: ['education', 'games', 'kids'],
+          icons: [
+            { src: icon180, sizes: '180x180', type: 'image/png', purpose: 'any' },
+            { src: icon512, sizes: '512x512', type: 'image/png', purpose: 'any maskable' }
+          ]
+        };
+
+        const manifestLink = document.getElementById('pwa-manifest');
+        if (manifestLink) {
+          manifestLink.href = 'data:application/manifest+json;charset=utf-8,' + encodeURIComponent(JSON.stringify(manifestObj));
+        }
+      } catch (_) {
+        // SVG Favicon remains active in restricted contexts
+      }
+    }
+
+    window.onload = () => {
+      initSiteIconsAndManifest();
+      updateHUD();
+      animate();
+    };
+  </script>
+</body>
+</html>
